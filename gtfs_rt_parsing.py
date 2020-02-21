@@ -107,12 +107,13 @@ def getRealTime():
       obj["geometry"]["type"] = "Point"
       obj["geometry"]["coordinates"] = uni["coordinates"]
 
+
       # START OF PROPERTIES SECTION
       obj["properties"] = {}
       obj["properties"]["popupContent"] = f"RouteID: {uni['routeId']} <br>TripID: {uni['tripId']} <br>VehicleID: {uni['vehicleId']}"
+      obj["properties"]['id'] = id
 
       # ADD INDIVIDUAL VEHICLES TO LIST
-      allVehicles[id] = obj
       id += 1
       allVehicles['features'].append(obj)
     return json.dumps(allVehicles)
