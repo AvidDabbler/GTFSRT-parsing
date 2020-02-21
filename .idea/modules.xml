@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/GTFSRT-parsing.iml" filepath="$PROJECT_DIR$/.idea/GTFSRT-parsing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gtfs_rt_parsing.iml" filepath="$PROJECT_DIR$/.idea/gtfs_rt_parsing.iml" />
     </modules>
   </component>
 </project>
