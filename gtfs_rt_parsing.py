@@ -194,6 +194,6 @@ def feedInfo():
 
 while 1==1:
   getRealTime()
-  time.sleep(10)
+  time.sleep(30)
 
 feedInfo()
