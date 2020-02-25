@@ -190,8 +190,10 @@ def feedInfo():
   print(start_time)
   
 
-getGTFS()
+# getGTFS()
 
-getRealTime()
+while 1==1:
+  getRealTime()
+  time.sleep(10)
 
 feedInfo()
