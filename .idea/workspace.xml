@@ -26,8 +26,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GTFSRT-Tutorial" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Walter\dev\GTFSRT-parsing" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.parse gtfs-rt">
     <configuration name="get gtfs" type="PythonConfigurationType" factoryName="Python">
@@ -63,7 +68,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gtfs_rt_parsing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GTFS-RT_Tutorial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,43 +108,43 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581132720483">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582858685634">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1581132720483" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1582858685634" />
     <state x="-1230" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581145292363">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1230" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1581145292363" />
-    <state x="-1708" y="176" key="FileChooserDialogImpl" timestamp="1581911746398">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="141" y="115" key="FileChooserDialogImpl" timestamp="1582859962725">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1708" y="176" key="FileChooserDialogImpl/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1581911746398" />
-    <state x="141" y="115" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581352436885" />
-    <state width="1899" height="233" key="GridCell.Tab.0.bottom" timestamp="1582255837895">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="141" y="115" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582859962725" />
+    <state width="1259" height="233" key="GridCell.Tab.0.bottom" timestamp="1582860146946">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1899" height="233" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1582255837895" />
     <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1581967666511" />
-    <state width="1259" height="131" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582139429206" />
-    <state width="1899" height="233" key="GridCell.Tab.0.center" timestamp="1582255837895">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1259" height="233" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582860146946" />
+    <state width="1259" height="233" key="GridCell.Tab.0.center" timestamp="1582860146945">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1899" height="233" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1582255837895" />
     <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1581967666511" />
-    <state width="1259" height="131" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582139429206" />
-    <state width="1899" height="233" key="GridCell.Tab.0.left" timestamp="1582255837895">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1259" height="233" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582860146945" />
+    <state width="1259" height="233" key="GridCell.Tab.0.left" timestamp="1582860146945">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1899" height="233" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1582255837895" />
     <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1581967666511" />
-    <state width="1259" height="131" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582139429206" />
-    <state width="1899" height="233" key="GridCell.Tab.0.right" timestamp="1582255837895">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1259" height="233" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582860146945" />
+    <state width="1259" height="233" key="GridCell.Tab.0.right" timestamp="1582860146946">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1899" height="233" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1582255837895" />
     <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1581967666511" />
-    <state width="1259" height="131" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582139429206" />
+    <state width="1259" height="233" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582860146946" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1581967666512">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

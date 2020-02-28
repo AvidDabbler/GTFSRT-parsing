@@ -8,14 +8,6 @@ import pandas as pd
 import json
 import time
 
-####################################################################################
-################################### OBJECTIVES ####################################
-# FIND RUNNING TIMES FOR TRANSIT SYSTEM (FIRST RUN & LAST RUN)
-# GET DATA TO RUN IN AN INTERVAL
-# ENRICH REALTIME DATA WITH GTFS (USING PANDAS???)
-# CHECK FOR UP TO DATE DATA AND UPDATE DATASET
-# SAVE
-####################################################################################
 
 dir = os.getcwd()
 gtfs = [
@@ -32,6 +24,7 @@ gtfs = [
 for file in gtfs:
   if os.path.exists(file):
     os.remove(file)
+
 
 def getGTFS():
   print("**********************************************")
@@ -80,25 +73,27 @@ def getRealTime():
     return feed2
 
   def vehicle(pburl):
-    allVehicles = {}
-    allVehicles['type'] = {}
-    allVehicles['type'] = 'Feature Collection'
-    allVehicles['features'] = []
+    allVehicles = {} # CREATE A NEW OBJECT FOR ALL OF THE VEHICLE INFORMATION
+    allVehicles['type'] = {} # ADD TYPE
+    allVehicles['type'] = 'Feature Collection' # SPECIFY TYPE = 'FEATURE COLLECTION' FOR GEOJSON FORMATTING
+    allVehicles['features'] = [] # CREATE A LIST CALLED FEATURES TO HOLD ALL OF THE ATTRIBUTE AND LOCATIONAL DATA
 
-    feed = parseDict(pburl)
-    id = 0
+    feed = parseDict(pburl) # PARSES PB VEHICLE DATA INTO A DICTIONARY
+    id = 0 # VEHICLE ID STARTS AT 0
     for value in feed['entity']:
-      obj = {}
+      obj = {} # CREATE A NEW OBJECT FOR EACH VEHICLE
 
       # LIST OF SECTIONS
       list = ["type", "properties", "geometry", "data"]
       for i in list: # CREATE SECTIONS
-        obj[i] = {}
-      obj["type"] = "Feature"
+        obj[i] = {} # ADD A NEW OBJECT FOR EACH SECTION FOR GEOJSON, HTML FORMATTING AND DATA RETENTION
+      obj["type"] = "Feature" # CLASSIFY "TYPE" AS A "FEATURE" FOR GEOJSON PURPOSES
 
       # START OF DATA SECTION
       tripId = value["vehicle"]["trip"]["tripId"]
       uni = obj["data"]
+
+      # COPYING DATA OVER TO THE DATA SECTION OF THE GEOJSON OBJECT
       uni["vehicleId"] = value["vehicle"]["vehicle"]["id"]
       uni["tripId"] = tripId
       uni["routeId"] = value["vehicle"]["trip"]["routeId"]
@@ -120,13 +115,13 @@ def getRealTime():
     return json.dumps(allVehicles)
 
   def trip(pburl):
-    allTrips = {}
-    feed = parseDict(pburl)
+    allTrips = {} # CREATES A NEW OBJECT FOR ALL OF THE TRIP DATA
+    feed = parseDict(pburl) # PARSES THE TRIP PB DATA TO DICTIONARY
     for value in feed['entity']:
       tripId = value['tripUpdate']['trip']['tripId']
-      allTrips[tripId] = {}
-      allTrips[tripId]['tripId'] = tripId
-      allTrips[tripId]['routeId'] = value['tripUpdate']['trip']['routeId']
+      allTrips[tripId] = {} # CREATES A NEW TRIP ID OBJECT FOR EACH TRIP IDENTIFIED
+      allTrips[tripId]['tripId'] = tripId # COPY OVER TRIPID DATA FROM FEED
+      allTrips[tripId]['routeId'] = value['tripUpdate']['trip']['routeId'] # COPY OVER ROUTEID
       if 'delay' in value['tripUpdate']['stopTimeUpdate'][0]['departure']:
         allTrips[tripId]['delay'] = value['tripUpdate']['stopTimeUpdate'][0]['departure']['delay']
     return allTrips
@@ -137,21 +132,26 @@ def getRealTime():
     'https://www.metrostlouis.org/RealTimeData/StlRealTimeTrips.pb'
   ]
 
+  # LOOPS THROUGH THE VEHICLES AND TRIPS PB DATA
   for item in realtime_list:
     print(item)
-    # if looking at vehicles
+
+    # IF YOU ARE LOOKING AT THE VEHICLES PB FILE
     if item == 'https://www.metrostlouis.org/RealTimeData/StlRealTimeVehicles.pb':
       print('writing vehicles...')
       vehicles = vehicle(item)
-      saveTempData(vehicles, r'C:\Users\Walter\dev\leaflet\vehicles.json')
+      saveTempData(vehicles, r'leaflet/vehicles.json')
       pass
-    # if looking at the trips file
+
+    # IF YOU ARE LOOKING AT THE TRIPS PB FILE
     elif item == 'https://www.metrostlouis.org/RealTimeData/StlRealTimeTrips.pb':
       print('writing trips...')
       print(item)
       trips = trip(item)
-      saveTempData(trips, 'trips.json')
+      saveTempData(trips, 'leaflet/trips.json')
       pass
+
+    # ELSE THERE IS AN ERROR
     else:
       print(item)
       print('error')
@@ -160,29 +160,8 @@ def getRealTime():
 
 
 
-def addTripUpdate(gtfs_trips, trips):
-  trps = trips['trips']['id']
-  for t in trps:
-    print(t[0])
-
-
-  gtfs_trips['update'] = 999
-
-
-def feedInfo():
-  files = os.path.join(os.getcwd(), 'files')
-
-  stop_times = pd.read_csv(gtfs['stop_times'])
-  stop_times['arr'] = stop_times['arrival_time'].str.split(':').str.join('')
-  start_time = stop_times[['trip_id', 'arrival_time', 'arr']].groupby('trip_id')['arr'].min().to_frame()
-  start_time.sort_values('arr', ascending=True)
-  print(start_time)
-  
-
 getGTFS()
 
 while 1==1:
   getRealTime()
   time.sleep(30)
-
-feedInfo()

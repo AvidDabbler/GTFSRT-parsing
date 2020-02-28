@@ -130,4 +130,6 @@ dmypy.json
 
 # CUSTOM
 /files
-
+.gtfs_rt_parsing.py
+*.txt
+leaflet/private.js
