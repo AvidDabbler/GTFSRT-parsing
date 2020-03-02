@@ -1,2 +1,0 @@
-﻿agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_email,agency_fare_url
-Metro St. Louis,http://www.metrostlouis.org,America/Chicago,EN,314-231-2345,TransitInformation@MetroStLouis.org,http://www.metrostlouis.org/fares-and-passes/
