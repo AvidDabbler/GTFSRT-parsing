@@ -1,0 +1,634 @@
+[
+  {
+    "route_id": "15746",
+    "route_short_name": "57",
+    "route_long_name": "Manchester",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15750",
+    "route_short_name": "61",
+    "route_long_name": "Chambers Rd",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15759",
+    "route_short_name": "77",
+    "route_long_name": "Village Square",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15724",
+    "route_short_name": "9",
+    "route_long_name": "Oakville",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15734",
+    "route_short_name": "31",
+    "route_long_name": "Chouteau",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15742",
+    "route_short_name": "46",
+    "route_long_name": "Tesson Ferry",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15756",
+    "route_short_name": "74",
+    "route_long_name": "Florissant",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15760",
+    "route_short_name": "78",
+    "route_long_name": "Bellefontaine",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15780",
+    "route_short_name": "14",
+    "route_long_name": "Memorial Hosp-Westfield Plaza",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15744",
+    "route_short_name": "49",
+    "route_long_name": "Lindbergh",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15769",
+    "route_short_name": "101",
+    "route_long_name": "Fenton Connector",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15797",
+    "route_short_name": "17X",
+    "route_long_name": "Lebanon - Mascoutah",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15793",
+    "route_short_name": "174X",
+    "route_long_name": "Halls Ferry Express",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15741",
+    "route_short_name": "42",
+    "route_long_name": "Sarah",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15726",
+    "route_short_name": "11",
+    "route_long_name": "Chippewa",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15776",
+    "route_short_name": "8",
+    "route_long_name": "Alta Sita",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15764",
+    "route_short_name": "94",
+    "route_long_name": "Page",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15735",
+    "route_short_name": "32",
+    "route_long_name": "Dr ML King",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15777",
+    "route_short_name": "9",
+    "route_long_name": "Washington Park",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15765",
+    "route_short_name": "95",
+    "route_long_name": "Kingshighway",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15784",
+    "route_short_name": "21",
+    "route_long_name": "Scott AFB-Main Base Shuttle",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15729",
+    "route_short_name": "17",
+    "route_long_name": "Mackenzie",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15782",
+    "route_short_name": "16",
+    "route_long_name": "St Clair Square",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15719",
+    "route_short_name": "1",
+    "route_long_name": "Gold",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15752",
+    "route_short_name": "65",
+    "route_long_name": "Outer Forty",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15778",
+    "route_short_name": "12",
+    "route_long_name": "OFallon-Fairview Heights",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15740",
+    "route_short_name": "41",
+    "route_long_name": "Lee",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15792",
+    "route_short_name": "79X",
+    "route_long_name": "North County Express",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15732",
+    "route_short_name": "21",
+    "route_long_name": "Watson Rd",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15733",
+    "route_short_name": "30",
+    "route_long_name": "Arsenal",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15747",
+    "route_short_name": "58",
+    "route_long_name": "Chesterfield Valley",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15783",
+    "route_short_name": "17",
+    "route_long_name": "Carlyle Plaza-17th Street",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15757",
+    "route_short_name": "75",
+    "route_long_name": "Christian Hospital",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15779",
+    "route_short_name": "13",
+    "route_long_name": "Caseyville-Marybelle",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15761",
+    "route_short_name": "79",
+    "route_long_name": "Ferguson",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15770",
+    "route_short_name": "1",
+    "route_long_name": "Main Street - State Street",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15727",
+    "route_short_name": "13",
+    "route_long_name": "Union",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15728",
+    "route_short_name": "16",
+    "route_long_name": "City Limits",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15738",
+    "route_short_name": "35",
+    "route_long_name": "Rock Road",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15722",
+    "route_short_name": "5",
+    "route_long_name": "Green",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15745",
+    "route_short_name": "56",
+    "route_long_name": "Kirkwood-Webster",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15731",
+    "route_short_name": "19",
+    "route_long_name": "St Louis Ave",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15739",
+    "route_short_name": "40",
+    "route_long_name": "N Broadway",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15751",
+    "route_short_name": "64",
+    "route_long_name": "Lucas-Hunt",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15774",
+    "route_short_name": "6",
+    "route_long_name": "Rosemont",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15781",
+    "route_short_name": "15",
+    "route_long_name": "Belleville-Shiloh-OFallon",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15762",
+    "route_short_name": "90",
+    "route_long_name": "Hampton",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15791",
+    "route_short_name": "73X",
+    "route_long_name": "I-55 Express",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15794",
+    "route_short_name": "410X",
+    "route_long_name": "Eureka Express",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15758",
+    "route_short_name": "76",
+    "route_long_name": "McDonnell-Waterford",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15766",
+    "route_short_name": "97",
+    "route_long_name": "Delmar",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15753",
+    "route_short_name": "70",
+    "route_long_name": "Grand",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15773",
+    "route_short_name": "5",
+    "route_long_name": "Missouri Ave - ML King",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15755",
+    "route_short_name": "73",
+    "route_long_name": "Carondelet",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15763",
+    "route_short_name": "91",
+    "route_long_name": "Olive",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15736",
+    "route_short_name": "33",
+    "route_long_name": "Midland",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15748",
+    "route_short_name": "59",
+    "route_long_name": "Oakland",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15798",
+    "route_short_name": "21X",
+    "route_long_name": "Scott AFB-East Base Shuttle",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15754",
+    "route_short_name": "71",
+    "route_long_name": "Patterson-Redman",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15789",
+    "route_short_name": "57X",
+    "route_long_name": "Clayton Rd",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15772",
+    "route_short_name": "4",
+    "route_long_name": "19th & Central",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15786R",
+    "route_short_name": "MLR",
+    "route_long_name": "MetroLink Red Line",
+    "route_type": "2",
+    "route_color": "CC0033",
+    "route_text_color": "FFFFFF"
+  },
+  {
+    "route_id": "15786B",
+    "route_short_name": "MLB",
+    "route_long_name": "MetroLink Blue Line",
+    "route_type": "2",
+    "route_color": "333399",
+    "route_text_color": "FFFFFF"
+  },
+  {
+    "route_id": "15771",
+    "route_short_name": "2",
+    "route_long_name": "Cahokia",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15768",
+    "route_short_name": "100",
+    "route_long_name": "Hazelwood",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15725",
+    "route_short_name": "10",
+    "route_long_name": "Gravois-Lindell",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15743",
+    "route_short_name": "47",
+    "route_long_name": "Hanley",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15795",
+    "route_short_name": "2X",
+    "route_long_name": "Waterloo-Columbia",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15767",
+    "route_short_name": "98",
+    "route_long_name": "Ballas-North Hanley",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15730",
+    "route_short_name": "18",
+    "route_long_name": "Taylor",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15790",
+    "route_short_name": "58X",
+    "route_long_name": "Twin Oaks Express",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15775",
+    "route_short_name": "7",
+    "route_long_name": "Fairmont City",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15749",
+    "route_short_name": "60",
+    "route_long_name": "Shepley-Lilac",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15720",
+    "route_short_name": "2",
+    "route_long_name": "Red",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15799",
+    "route_short_name": "22X",
+    "route_long_name": "Sauget Industrial Parkway",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15737",
+    "route_short_name": "34",
+    "route_long_name": "Earth City",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15721",
+    "route_short_name": "4",
+    "route_long_name": "Natural Bridge",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15796",
+    "route_short_name": "12X",
+    "route_long_name": "Metrolink Station Shuttle",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  },
+  {
+    "route_id": "15723",
+    "route_short_name": "8",
+    "route_long_name": "Shaw-Cherokee",
+    "route_type": "3",
+    "route_color": "FFFFFF",
+    "route_text_color": "000000"
+  }
+]

@@ -21,6 +21,19 @@ from collections import OrderedDict
 
 dir = os.getcwd()
 
+
+def saveTempData(data, filename):
+    with open(filename, "w") as f:
+        jsondata = json.dumps(data, indent=2)
+        f.write(f'{jsondata}')
+        f.close()
+
+    print(' ')
+    print("************************************")
+    print(f'{filename} created!')
+    print("************************************")
+    print(' ')
+
 def getGTFS():
     gtfs = [
         os.path.join(dir, 'agency.txt'),
@@ -59,18 +72,52 @@ def getGTFS():
     print("**********************************************")
     print(' ')
 
+def loadGTFS(routesFile, stopsFile, stopTimesFile):
+    def loadRoutes(routesFile):
+        routesJson = []
+        with open(routesFile, newline='') as csvfile:
+            reader = csv.DictReader(csvfile)
+            for line in reader:
+                data = {}
+                for key in line:
+                    if 'route_id' in key:
+                        data['route_id'] = line[key]
+                    else:
+                        data[key] = line[key]
+                routesJson.append(data)
+        saveTempData(routesJson, r'leaflet\routes.json')
+
+    def loadStops(stopTimesFile, stopsFile):
+        stopsJson = {}
+        stopTimesJson = {}
+
+        # LOAD UP STOPS.TXT FROM GTFS
+        with open(stopsFile, newline='') as stops_csv:
+            stopsReader = csv.DictReader(stops_csv)
+            for stps in stopsReader:
+                # CREATE AN OBJECT FOR EVERY STOP_ID
+                stopsJson[stps['ï»¿stop_id']] = {}
+                # ADD COLUMNS AS KEYS TO STOP
+                for key in stps:
+                    # RENAME STOP_ID KEY
+                    if key == 'ï»¿stop_id':
+                        stopsJson[stps['ï»¿stop_id']]['stop_id'] = stps[key]
+                    else:
+                        stopsJson[stps['ï»¿stop_id']][key] = stps[key]
+                    stopsJson[stps['ï»¿stop_id']]['trips'] = []
+        # LOAD UP STOP_TIMES.TXT FROM GTFS
+        with open(stopTimesFile, newline='') as stop_times_csv:
+            stopTimesReader = csv.DictReader(stop_times_csv)
+            for stp_times in stopTimesReader:
+                if stp_times['ï»¿trip_id'] not in stopsJson[stp_times['stop_id']]['trips']:
+                    stopsJson[stp_times['stop_id']]['trips'].append(stp_times['ï»¿trip_id'])
+        saveTempData(stopsJson, r'leaflet\stops.json')
+
+    loadRoutes(routesFile)
+    loadStops(stopTimesFile, stopsFile)
 
 def getRealTime():
-    def saveTempData(d, filename):
-        with open(filename, "w") as f:
-            f.write(f'{d}')
-            f.close()
 
-        print(' ')
-        print("************************************")
-        print(f'{filename} created!')
-        print("************************************")
-        print(' ')
 
     def parseDict(u):
         # TAKES THE DATA FROM U (THE PB URL) AND TURNS IT INTO A DICTIONARY
@@ -81,32 +128,28 @@ def getRealTime():
         feed2 = MessageToDict(feed)
         return feed2
 
-    def loadRoutes(routesFile):
-        routesJson = {}
-        id = 0
-        with open(routesFile, newline='') as csvfile:
-            reader = csv.DictReader(csvfile)
-            for line in reader:
-                routesJson[id] = {}
-                for key in line:
-                    routesJson[id][key] = line[key]
-                id += 1
-        return routesJson
 
-    routesJson = loadRoutes(r'routes.txt')
 
     def getVehicles(pburl):
-        def addVehicleInfo(routes, vehicles):
-            for vehicle in vehicles['features']:
-                routei = 0
-                while vehicle['data']['routeId'] != routesJson[routei]['ï»¿route_id']: # 'ï»¿route_id' is the default name for whatever reason for 'route_id'
-                    routei += 1
-                if vehicle['data']['routeId'] != routesJson[routei]['ï»¿route_id']:
+        def addVehicleInfo(vehicles):
+            with open(r'leaflet\routes.json') as data:
+                routesJson = json.loads(data.read())
+                for vehicle in vehicles['features']:
                     routei = 0
 
-                vehicle['data']['route_short_name'] = routesJson[routei]['route_short_name']
-                vehicle['data']['route_long_name'] = routesJson[routei]['route_long_name']
-            return vehicles
+                    # FINDING A ROUTE_ID MATCH BETWEEN VEHICLES AND ROUTESJSON. CYCLES THROUGH ROUTES TO FIND A MATCH
+                    # !!! ASSUMES THAT THERE WILL BE A MATCH. FACTOR IN A NO MATCH BY LOOKING FOR END OF ROUTES LIST.
+                    while vehicle['data']['routeId'] != routesJson[routei]['route_id']:
+                        routei += 1
+
+                    # IF ROUTE_ID MATCH FOUND
+                    if vehicle['data']['routeId'] != routesJson[routei]['route_id']:
+                        routei = 0
+
+                    # COPY OVER ROUTESJSON ROUTE_SHORT_NAME AND ROUTE_LONG_NAME TO VEHICLES
+                    vehicle['data']['route_short_name'] = routesJson[routei]['route_short_name']
+                    vehicle['data']['route_long_name'] = routesJson[routei]['route_long_name']
+                return vehicles
 
         def addVehiclePopups(vehicles):
             for vehicle in vehicles['features']:
@@ -149,9 +192,9 @@ def getRealTime():
             # ADD INDIVIDUAL VEHICLES TO LIST
             id += 1
             allVehicles['features'].append(obj)
-        allVehicles = addVehicleInfo(routesJson, allVehicles)
+        allVehicles = addVehicleInfo(allVehicles)
         allVehicles = addVehiclePopups(allVehicles)
-        return json.dumps(allVehicles)
+        return allVehicles
 
     def getTrips(pburl):
         allTrips = {}
@@ -163,6 +206,10 @@ def getRealTime():
             allTrips[tripId]['routeId'] = value['tripUpdate']['trip']['routeId']
             if 'delay' in value['tripUpdate']['stopTimeUpdate'][0]['departure']:
                 allTrips[tripId]['delay'] = value['tripUpdate']['stopTimeUpdate'][0]['departure']['delay']
+            if 'delay' in value['tripUpdate']['stopTimeUpdate'][0]['departure']:
+                allTrips[tripId]['time'] = value['tripUpdate']['stopTimeUpdate'][0]['departure']['time']
+            if 'delay' in value['tripUpdate']['stopTimeUpdate'][0]['departure']:
+                allTrips[tripId]['nextStopId'] = value['tripUpdate']['stopTimeUpdate'][0]['stopId']
 
         return allTrips
 
@@ -194,7 +241,8 @@ def getRealTime():
 
 
 
-# getGTFS()
+getGTFS()
+loadGTFS(r'routes.txt', r'stops.txt', r'stop_times.txt')
 getRealTime()
 
 
