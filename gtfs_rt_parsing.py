@@ -89,35 +89,37 @@ def loadGTFS(routesFile, stopsFile, stopTimesFile):
 
     def loadStops(stopTimesFile, stopsFile):
         stopsJson = {}
-        stopTimesJson = {}
 
         # LOAD UP STOPS.TXT FROM GTFS
+        # !!! REFACTOR AS GEOJSON,
         with open(stopsFile, newline='') as stops_csv:
             stopsReader = csv.DictReader(stops_csv)
             for stps in stopsReader:
                 # CREATE AN OBJECT FOR EVERY STOP_ID
-                stopsJson[stps['ï»¿stop_id']] = {}
+                stopsJson[stps['stop_id']] = {}
                 # ADD COLUMNS AS KEYS TO STOP
                 for key in stps:
                     # RENAME STOP_ID KEY
                     if key == 'ï»¿stop_id':
                         stopsJson[stps['ï»¿stop_id']]['stop_id'] = stps[key]
                     else:
-                        stopsJson[stps['ï»¿stop_id']][key] = stps[key]
-                    stopsJson[stps['ï»¿stop_id']]['trips'] = []
+                        stopsJson[stps['stop_id']][key] = stps[key]
+                    stopsJson[stps['stop_id']]['trips'] = []
         # LOAD UP STOP_TIMES.TXT FROM GTFS
         with open(stopTimesFile, newline='') as stop_times_csv:
             stopTimesReader = csv.DictReader(stop_times_csv)
             for stp_times in stopTimesReader:
-                if stp_times['ï»¿trip_id'] not in stopsJson[stp_times['stop_id']]['trips']:
-                    stopsJson[stp_times['stop_id']]['trips'].append(stp_times['ï»¿trip_id'])
+                if stp_times['trip_id'] not in stopsJson[stp_times['stop_id']]['trips']:
+                    stopsJson[stp_times['stop_id']]['trips'].append(stp_times['trip_id'])
         saveTempData(stopsJson, r'leaflet\stops.json')
 
     loadRoutes(routesFile)
     loadStops(stopTimesFile, stopsFile)
 
 def getRealTime():
-
+    # !!! ADD STOP ARRIVAL INFORMATION (POPUPS AND DATA FROM TRIPS.JSON)
+    # !!! WILL NEED TO FIND STOP_ID IN TRIPS.JSON AND STOP_TIMES.TXT
+    # FIND MATCHING STOP_ID / TRIP_ID SEQUENCE ADD NEW ARRIVAL TIME FROM STOP_TIMES.TXT
 
     def parseDict(u):
         # TAKES THE DATA FROM U (THE PB URL) AND TURNS IT INTO A DICTIONARY
@@ -127,8 +129,6 @@ def getRealTime():
         feed.ParseFromString(response.content)
         feed2 = MessageToDict(feed)
         return feed2
-
-
 
     def getVehicles(pburl):
         def addVehicleInfo(vehicles):
@@ -243,9 +243,9 @@ def getRealTime():
 
 getGTFS()
 loadGTFS(r'routes.txt', r'stops.txt', r'stop_times.txt')
-getRealTime()
+# getRealTime()
 
 
-# while 1==1:
-#   getRealTime()
-#   time.sleep(30)
+while 1==1:
+  getRealTime()
+  time.sleep(15)
