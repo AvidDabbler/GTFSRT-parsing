@@ -13,10 +13,12 @@ from collections import OrderedDict
 ####################################################################################
 ################################### OBJECTIVES ####################################
 # FIND RUNNING TIMES FOR TRANSIT SYSTEM (FIRST RUN & LAST RUN)
-# GET DATA TO RUN IN AN INTERVAL
-# ENRICH REALTIME DATA WITH GTFS (USING PANDAS???)
+# ADD IN ACTIVE TRIPS FOR STOPS
+# ADD IN NEXT TRIP / ROUTE ARRIVAL TIME (IF ANY) FOR STOP
+# IF NO TRIP IS ASSIGNED OR REALTIME DATA NOT AVAILABLE STATE THAT IT IS NOT A REAL TIME AND PRINT NEXT ARRIVAL TIME
 # CHECK FOR UP TO DATE DATA AND UPDATE DATASET
-# SAVE
+# RERUN GETGTFS() MONDAY AT 4AM (OK TO BREAK LOOP)
+# SHUTDOWN AND RESTART PROCESS WHEN SERVICE NOT / IS AVAILABLE
 ####################################################################################
 
 dir = os.getcwd()
@@ -121,10 +123,10 @@ def getRealTime():
     # !!! WILL NEED TO FIND STOP_ID IN TRIPS.JSON AND STOP_TIMES.TXT
     # FIND MATCHING STOP_ID / TRIP_ID SEQUENCE ADD NEW ARRIVAL TIME FROM STOP_TIMES.TXT
 
-    def parseDict(u):
+    def parseDict(pbu):
         # TAKES THE DATA FROM U (THE PB URL) AND TURNS IT INTO A DICTIONARY
         feed = gtfs_realtime_pb2.FeedMessage()
-        url = u
+        url = pbu
         response = requests.get(url)
         feed.ParseFromString(response.content)
         feed2 = MessageToDict(feed)
@@ -153,7 +155,10 @@ def getRealTime():
 
         def addVehiclePopups(vehicles):
             for vehicle in vehicles['features']:
-                vehicle["properties"]["popupContent"] = f"Route: {vehicle['data']['route_short_name']} <br>Route Name: {vehicle['data']['route_long_name']} <br>TripID: {vehicle['data']['tripId']} <br>VehicleID: {vehicle['data']['vehicleId']}"
+                vehicle["properties"]["popupContent"] = f"Route: {vehicle['data']['route_short_name']} " \
+                                                        f"<br>Route Name: {vehicle['data']['route_long_name']} " \
+                                                        f"<br>TripID: {vehicle['data']['tripId']} " \
+                                                        f"<br>VehicleID: {vehicle['data']['vehicleId']}"
             return vehicles
 
         allVehicles = {}
@@ -241,8 +246,8 @@ def getRealTime():
 
 
 
-getGTFS()
-loadGTFS(r'routes.txt', r'stops.txt', r'stop_times.txt')
+# getGTFS()
+# loadGTFS(r'routes.txt', r'stops.txt', r'stop_times.txt')
 # getRealTime()
 
 
