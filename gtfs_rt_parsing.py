@@ -91,44 +91,48 @@ def loadGTFS(routesFile, stopsFile, stopTimesFile):
         geojson= {}
         geojson['type'] = "Feature Collection"
         geojson['features'] = []
-        print(geojson)
 
         # LOAD UP STOPS.TXT FROM GTFS
         # !!! REFACTOR AS GEOJSON,
 
-        stopsJson = {}
+        stopsJson = []
         with open(stopsFile, newline='') as stops_csv:
             stopsReader = csv.DictReader(stops_csv)
             for stps in stopsReader:
                 # CREATE AN OBJECT FOR EVERY STOP_ID
-                stopsJson[stps['stop_id']] = {}
+                indivStop = {}
 
-                stopsJson[stps['stop_id']]['data'] = {}
+                indivStop['data'] = {}
+                indivStop['type'] = "feature"
 
                 # ADD COLUMNS AS KEYS TO STOP
                 for key in stps:
                     # RENAME STOP_ID KEY
                     if key == 'ï»¿stop_id':
-                        stopsJson[stps['ï»¿stop_id']]['data']['stop_id'] = stps[key]
+                        indivStop['data']['stop_id'] = stps[key]
                     else:
-                        stopsJson[stps['stop_id']]['data'][key] = stps[key]
-                    stopsJson[stps['stop_id']]['data']['trips'] = []
-        # LOAD UP STOP_TIMES.TXT FROM GTFS
-        with open(stopTimesFile, newline='') as stop_times_csv:
-            stopTimesReader = csv.DictReader(stop_times_csv)
-            for stp_times in stopTimesReader:
-                if stp_times['trip_id'] not in stopsJson[stp_times['stop_id']]['data']['trips']:
-                    stopsJson[stp_times['stop_id']]['data']['trips'].append(stp_times['trip_id'])
+                        indivStop['data'][key] = stps[key]
+                    indivStop['data']['trips'] = []
+
+                    indivStop['geometry'] = {}
+                    indivStop['geometry']['type'] = "Point"
+                    indivStop['geometry']['coordinates'] = [float(stps['stop_lat']), float(stps['stop_lon'])]
+
+                stopsJson.append(indivStop)
+
+
+        # # LOAD UP STOP_TIMES.TXT FROM GTFS
+        # with open(stopTimesFile, newline='') as stop_times_csv:
+        #     stopTimesReader = csv.DictReader(stop_times_csv)
+        #     for stp_times in stopTimesReader:
+        #         if stp_times['trip_id'] not in stopsJson['features'][stp_times['stop_id']]['data']['trips']:
+        #             stopsJson[stp_times['stop_id']]['data']['trips'].append(stp_times['trip_id'])
 
         # CREATION OF GEOJSON FORMATTING FOR STOP.JSON
-        stopsJson[stps['stop_id']]['type'] = "Feature"
-        stopsJson[stps['stop_id']]['geometry'] = {}
-        stopsJson[stps['stop_id']]['geometry']['type'] = "Point"
-        stopsJson[stps['stop_id']]['geometry']['coordinates'] = [stopsJson[stps['stop_id']]['data']['stop_lat'],
-                                                                 stopsJson[stps['stop_id']]['data']['stop_lon']]
+        geojson['type'] = "feature collection"
+        geojson['features'] = stopsJson
 
-        saveTempData(stopsJson, r'leaflet\stops.json')
-        print(stopsJson)
+        saveTempData(geojson, r'leaflet\stops.json')
 
     loadRoutes(routesFile)
     loadStops(stopTimesFile, stopsFile)
