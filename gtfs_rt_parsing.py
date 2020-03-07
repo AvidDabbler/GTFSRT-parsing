@@ -4,11 +4,9 @@ import requests
 import os
 import zipfile
 from urllib.request import urlopen
-import pandas as pd
 import json
 import time
 import csv
-from collections import OrderedDict
 
 ####################################################################################
 ################################### OBJECTIVES ####################################

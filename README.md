@@ -11,6 +11,8 @@ The files in this repo that need to be executed are just the `gtfs_rt_parsing.py
 ## gtfs_rt_parsing.py
 This section will cover the breakdown of each function and its purposes. For documentation sake and deployability sake functions were created to break down sub processes.
 
+All functions run at the end either as a loop or a single test. 
+
 ### saveTempData()
 Helper function that save data locally as a json file. 
 
@@ -41,4 +43,3 @@ This function adds in the html formatting for the popups for the vehicles. It cu
 #### getTrips()
 This function handles the trip arrival information for all the trips and produces the `trips.json` file. This information will later be used to update the `stops.json` file with up to date information for route arrivals. 
 
-All functions run at the end either as a loop or a single test. 
