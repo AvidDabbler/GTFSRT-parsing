@@ -244,8 +244,8 @@ def getRealTime():
 
 
 
-# getGTFS()
-# loadGTFS(r'routes.txt', r'stops.txt', r'stop_times.txt')
+getGTFS()
+loadGTFS(r'routes.txt', r'stops.txt', r'stop_times.txt')
 # getRealTime()
 
 
