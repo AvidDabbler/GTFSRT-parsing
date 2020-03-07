@@ -64,7 +64,7 @@ def getGTFS():
     zf = zipfile.ZipFile("google_transit.zip") # Extract its contents into <extraction_path> *note that extractall will automatically create the path
     zf.extractall(dir) # close the ZipFile instance
     zf.close()
-    os.remove(fr"{dir}\\google_transit.zip")
+    os.remove(fr"{dir}/google_transit.zip")
 
     print(f'FETCHED GTFS => {dir}')
     print("**********************************************")
@@ -244,8 +244,8 @@ def getRealTime():
 
 
 
-# getGTFS()
-# loadGTFS(r'routes.txt', r'stops.txt', r'stop_times.txt')
+getGTFS()
+loadGTFS(r'routes.txt', r'stops.txt', r'stop_times.txt')
 # getRealTime()
 
 
