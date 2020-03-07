@@ -133,3 +133,7 @@ dmypy.json
 .gtfs_rt_parsing.py
 *.txt
 leaflet/private.js
+leaflet/trips.js
+leaflet/vehicles.js
+leaflet/routes.js
+
