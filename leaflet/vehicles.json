@@ -5,2600 +5,2574 @@
       "type": "Feature",
       "properties": {
         "id": 0,
-        "popupContent": "Route: 16 <br>Route Name: St Clair Square <br>TripID: 2592333 <br>VehicleID: 3223"
+        "popupContent": "Route: 8 <br>Route Name: Alta Sita <br>TripID: 2591653 <br>VehicleID: 3222"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.95130157470703,
-          38.52445602416992
+          -90.12459564208984,
+          38.621009826660156
         ]
       },
       "data": {
-        "vehicleId": "3223",
-        "tripId": "2592333",
-        "routeId": "15782",
+        "vehicleId": "3222",
+        "tripId": "2591653",
+        "routeId": "15776",
         "coordinates": [
-          -89.95130157470703,
-          38.52445602416992
+          -90.12459564208984,
+          38.621009826660156
         ],
-        "route_short_name": "16",
-        "route_long_name": "St Clair Square"
+        "route_short_name": "8",
+        "route_long_name": "Alta Sita",
+        "route_full_name": "8 Alta Sita"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 1,
-        "popupContent": "Route: 18 <br>Route Name: Taylor <br>TripID: 2583660 <br>VehicleID: 3502"
+        "popupContent": "Route: 16 <br>Route Name: St Clair Square <br>TripID: 2592322 <br>VehicleID: 3223"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.2367172241211,
-          38.66958236694336
+          -89.9197998046875,
+          38.51630401611328
         ]
       },
       "data": {
-        "vehicleId": "3502",
-        "tripId": "2583660",
-        "routeId": "15730",
+        "vehicleId": "3223",
+        "tripId": "2592322",
+        "routeId": "15782",
         "coordinates": [
-          -90.2367172241211,
-          38.66958236694336
+          -89.9197998046875,
+          38.51630401611328
         ],
-        "route_short_name": "18",
-        "route_long_name": "Taylor"
+        "route_short_name": "16",
+        "route_long_name": "St Clair Square",
+        "route_full_name": "16 St Clair Square"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 2,
-        "popupContent": "Route: 78 <br>Route Name: Bellefontaine <br>TripID: 2588967 <br>VehicleID: 3520"
+        "popupContent": "Route: 42 <br>Route Name: Sarah <br>TripID: 2585437 <br>VehicleID: 3502"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.21800994873047,
-          38.78184127807617
+          -90.24224853515625,
+          38.64561080932617
         ]
       },
       "data": {
-        "vehicleId": "3520",
-        "tripId": "2588967",
-        "routeId": "15760",
+        "vehicleId": "3502",
+        "tripId": "2585437",
+        "routeId": "15741",
         "coordinates": [
-          -90.21800994873047,
-          38.78184127807617
+          -90.24224853515625,
+          38.64561080932617
         ],
-        "route_short_name": "78",
-        "route_long_name": "Bellefontaine"
+        "route_short_name": "42",
+        "route_long_name": "Sarah",
+        "route_full_name": "42 Sarah"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 3,
-        "popupContent": "Route: 79 <br>Route Name: Ferguson <br>TripID: 2589114 <br>VehicleID: 3522"
+        "popupContent": "Route: 41 <br>Route Name: Lee <br>TripID: 2585267 <br>VehicleID: 3504"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.31167602539062,
-          38.71745681762695
+          -90.20841979980469,
+          38.65841293334961
         ]
       },
       "data": {
-        "vehicleId": "3522",
-        "tripId": "2589114",
-        "routeId": "15761",
+        "vehicleId": "3504",
+        "tripId": "2585267",
+        "routeId": "15740",
         "coordinates": [
-          -90.31167602539062,
-          38.71745681762695
+          -90.20841979980469,
+          38.65841293334961
         ],
-        "route_short_name": "79",
-        "route_long_name": "Ferguson"
+        "route_short_name": "41",
+        "route_long_name": "Lee",
+        "route_full_name": "41 Lee"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 4,
-        "popupContent": "Route: 1 <br>Route Name: Main Street - State Street <br>TripID: 2590806 <br>VehicleID: 3603"
+        "popupContent": "Route: 64 <br>Route Name: Lucas-Hunt <br>TripID: 2586980 <br>VehicleID: 3508"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.04598999023438,
-          38.595760345458984
+          -90.29546356201172,
+          38.69074249267578
         ]
       },
       "data": {
-        "vehicleId": "3603",
-        "tripId": "2590806",
-        "routeId": "15770",
+        "vehicleId": "3508",
+        "tripId": "2586980",
+        "routeId": "15751",
         "coordinates": [
-          -90.04598999023438,
-          38.595760345458984
+          -90.29546356201172,
+          38.69074249267578
         ],
-        "route_short_name": "1",
-        "route_long_name": "Main Street - State Street"
+        "route_short_name": "64",
+        "route_long_name": "Lucas-Hunt",
+        "route_full_name": "64 Lucas-Hunt"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 5,
-        "popupContent": "Route: 56 <br>Route Name: Kirkwood-Webster <br>TripID: 2594705 <br>VehicleID: 3814"
+        "popupContent": "Route: 40 <br>Route Name: N Broadway <br>TripID: 2585147 <br>VehicleID: 3520"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.42028045654297,
-          38.56704330444336
+          -90.18923950195312,
+          38.64985656738281
         ]
       },
       "data": {
-        "vehicleId": "3814",
-        "tripId": "2594705",
-        "routeId": "15745",
+        "vehicleId": "3520",
+        "tripId": "2585147",
+        "routeId": "15739",
         "coordinates": [
-          -90.42028045654297,
-          38.56704330444336
+          -90.18923950195312,
+          38.64985656738281
         ],
-        "route_short_name": "56",
-        "route_long_name": "Kirkwood-Webster"
+        "route_short_name": "40",
+        "route_long_name": "N Broadway",
+        "route_full_name": "40 N Broadway"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 6,
-        "popupContent": "Route: 2 <br>Route Name: Cahokia <br>TripID: 2591062 <br>VehicleID: 3823"
+        "popupContent": "Route: 12 <br>Route Name: OFallon-Fairview Heights <br>TripID: 2592003 <br>VehicleID: 3602"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.1772232055664,
-          38.564308166503906
+          -89.94979858398438,
+          38.59269332885742
         ]
       },
       "data": {
-        "vehicleId": "3823",
-        "tripId": "2591062",
-        "routeId": "15771",
+        "vehicleId": "3602",
+        "tripId": "2592003",
+        "routeId": "15778",
         "coordinates": [
-          -90.1772232055664,
-          38.564308166503906
+          -89.94979858398438,
+          38.59269332885742
         ],
-        "route_short_name": "2",
-        "route_long_name": "Cahokia"
+        "route_short_name": "12",
+        "route_long_name": "OFallon-Fairview Heights",
+        "route_full_name": "12 OFallon-Fairview Heights"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 7,
-        "popupContent": "Route: 12 <br>Route Name: OFallon-Fairview Heights <br>TripID: 2592029 <br>VehicleID: 3826"
+        "popupContent": "Route: 46 <br>Route Name: Tesson Ferry <br>TripID: 2585561 <br>VehicleID: 3812"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.96604919433594,
-          38.59273910522461
+          -90.33269500732422,
+          38.54877471923828
         ]
       },
       "data": {
-        "vehicleId": "3826",
-        "tripId": "2592029",
-        "routeId": "15778",
+        "vehicleId": "3812",
+        "tripId": "2585561",
+        "routeId": "15742",
         "coordinates": [
-          -89.96604919433594,
-          38.59273910522461
+          -90.33269500732422,
+          38.54877471923828
         ],
-        "route_short_name": "12",
-        "route_long_name": "OFallon-Fairview Heights"
+        "route_short_name": "46",
+        "route_long_name": "Tesson Ferry",
+        "route_full_name": "46 Tesson Ferry"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 8,
-        "popupContent": "Route: 57 <br>Route Name: Manchester <br>TripID: 2586111 <br>VehicleID: 3833"
+        "popupContent": "Route: 2 <br>Route Name: Red <br>TripID: 2581924 <br>VehicleID: 6608"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.35614776611328,
-          38.61208724975586
+          -90.33785247802734,
+          38.622413635253906
         ]
       },
       "data": {
-        "vehicleId": "3833",
-        "tripId": "2586111",
-        "routeId": "15746",
+        "vehicleId": "6608",
+        "tripId": "2581924",
+        "routeId": "15720",
         "coordinates": [
-          -90.35614776611328,
-          38.61208724975586
+          -90.33785247802734,
+          38.622413635253906
         ],
-        "route_short_name": "57",
-        "route_long_name": "Manchester"
+        "route_short_name": "2",
+        "route_long_name": "Red",
+        "route_full_name": "2 Red"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 9,
-        "popupContent": "Route: 76 <br>Route Name: McDonnell-Waterford <br>TripID: 2588648 <br>VehicleID: 6604"
+        "popupContent": "Route: 71 <br>Route Name: Patterson-Redman <br>TripID: 2587831 <br>VehicleID: 6610"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.35830688476562,
-          38.776859283447266
+          -90.27057647705078,
+          38.77387237548828
         ]
       },
       "data": {
-        "vehicleId": "6604",
-        "tripId": "2588648",
-        "routeId": "15758",
+        "vehicleId": "6610",
+        "tripId": "2587831",
+        "routeId": "15754",
         "coordinates": [
-          -90.35830688476562,
-          38.776859283447266
+          -90.27057647705078,
+          38.77387237548828
         ],
-        "route_short_name": "76",
-        "route_long_name": "McDonnell-Waterford"
+        "route_short_name": "71",
+        "route_long_name": "Patterson-Redman",
+        "route_full_name": "71 Patterson-Redman"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 10,
-        "popupContent": "Route: 78 <br>Route Name: Bellefontaine <br>TripID: 2588946 <br>VehicleID: 6606"
+        "popupContent": "Route: 18 <br>Route Name: Taylor <br>TripID: 2583673 <br>VehicleID: 6618"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.22886657714844,
-          38.79561233520508
+          -90.25408935546875,
+          38.64937973022461
         ]
       },
       "data": {
-        "vehicleId": "6606",
-        "tripId": "2588946",
-        "routeId": "15760",
+        "vehicleId": "6618",
+        "tripId": "2583673",
+        "routeId": "15730",
         "coordinates": [
-          -90.22886657714844,
-          38.79561233520508
+          -90.25408935546875,
+          38.64937973022461
         ],
-        "route_short_name": "78",
-        "route_long_name": "Bellefontaine"
+        "route_short_name": "18",
+        "route_long_name": "Taylor",
+        "route_full_name": "18 Taylor"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 11,
-        "popupContent": "Route: 2 <br>Route Name: Red <br>TripID: 2581910 <br>VehicleID: 6608"
+        "popupContent": "Route: 61 <br>Route Name: Chambers Rd <br>TripID: 2586744 <br>VehicleID: 6619"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.34512329101562,
-          38.63810729980469
+          -90.3350830078125,
+          38.74995422363281
         ]
       },
       "data": {
-        "vehicleId": "6608",
-        "tripId": "2581910",
-        "routeId": "15720",
+        "vehicleId": "6619",
+        "tripId": "2586744",
+        "routeId": "15750",
         "coordinates": [
-          -90.34512329101562,
-          38.63810729980469
+          -90.3350830078125,
+          38.74995422363281
         ],
-        "route_short_name": "2",
-        "route_long_name": "Red"
+        "route_short_name": "61",
+        "route_long_name": "Chambers Rd",
+        "route_full_name": "61 Chambers Rd"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 12,
-        "popupContent": "Route: 71 <br>Route Name: Patterson-Redman <br>TripID: 2587823 <br>VehicleID: 6616"
+        "popupContent": "Route: 70 <br>Route Name: Grand <br>TripID: 2587569 <br>VehicleID: 6631"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.24930572509766,
-          38.78137969970703
+          -90.24273681640625,
+          38.59960174560547
         ]
       },
       "data": {
-        "vehicleId": "6616",
-        "tripId": "2587823",
-        "routeId": "15754",
+        "vehicleId": "6631",
+        "tripId": "2587569",
+        "routeId": "15753",
         "coordinates": [
-          -90.24930572509766,
-          38.78137969970703
+          -90.24273681640625,
+          38.59960174560547
         ],
-        "route_short_name": "71",
-        "route_long_name": "Patterson-Redman"
+        "route_short_name": "70",
+        "route_long_name": "Grand",
+        "route_full_name": "70 Grand"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 13,
-        "popupContent": "Route: 42 <br>Route Name: Sarah <br>TripID: 2585422 <br>VehicleID: 6618"
+        "popupContent": "Route: 70 <br>Route Name: Grand <br>TripID: 2587496 <br>VehicleID: 6634"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.2349624633789,
-          38.659034729003906
+          -90.24311828613281,
+          38.597408294677734
         ]
       },
       "data": {
-        "vehicleId": "6618",
-        "tripId": "2585422",
-        "routeId": "15741",
+        "vehicleId": "6634",
+        "tripId": "2587496",
+        "routeId": "15753",
         "coordinates": [
-          -90.2349624633789,
-          38.659034729003906
+          -90.24311828613281,
+          38.597408294677734
         ],
-        "route_short_name": "42",
-        "route_long_name": "Sarah"
+        "route_short_name": "70",
+        "route_long_name": "Grand",
+        "route_full_name": "70 Grand"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 14,
-        "popupContent": "Route: 91 <br>Route Name: Olive <br>TripID: 2589597 <br>VehicleID: 6631"
+        "popupContent": "Route: 74 <br>Route Name: Florissant <br>TripID: 2588296 <br>VehicleID: 6635"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.47937774658203,
-          38.68225860595703
+          -90.21470642089844,
+          38.67173767089844
         ]
       },
       "data": {
-        "vehicleId": "6631",
-        "tripId": "2589597",
-        "routeId": "15763",
+        "vehicleId": "6635",
+        "tripId": "2588296",
+        "routeId": "15756",
         "coordinates": [
-          -90.47937774658203,
-          38.68225860595703
+          -90.21470642089844,
+          38.67173767089844
         ],
-        "route_short_name": "91",
-        "route_long_name": "Olive"
+        "route_short_name": "74",
+        "route_long_name": "Florissant",
+        "route_full_name": "74 Florissant"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 15,
-        "popupContent": "Route: 70 <br>Route Name: Grand <br>TripID: 2587614 <br>VehicleID: 6634"
+        "popupContent": "Route: 76 <br>Route Name: McDonnell-Waterford <br>TripID: 2588641 <br>VehicleID: 6636"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.21609497070312,
-          38.66190719604492
+          -90.3024673461914,
+          38.77253341674805
         ]
       },
       "data": {
-        "vehicleId": "6634",
-        "tripId": "2587614",
-        "routeId": "15753",
+        "vehicleId": "6636",
+        "tripId": "2588641",
+        "routeId": "15758",
         "coordinates": [
-          -90.21609497070312,
-          38.66190719604492
+          -90.3024673461914,
+          38.77253341674805
         ],
-        "route_short_name": "70",
-        "route_long_name": "Grand"
+        "route_short_name": "76",
+        "route_long_name": "McDonnell-Waterford",
+        "route_full_name": "76 McDonnell-Waterford"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 16,
-        "popupContent": "Route: 100 <br>Route Name: Hazelwood <br>TripID: 2594070 <br>VehicleID: 6637"
+        "popupContent": "Route: 91 <br>Route Name: Olive <br>TripID: 2589574 <br>VehicleID: 6638"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.39098358154297,
-          38.77312469482422
+          -90.36177062988281,
+          38.67418670654297
         ]
       },
       "data": {
-        "vehicleId": "6637",
-        "tripId": "2594070",
-        "routeId": "15768",
+        "vehicleId": "6638",
+        "tripId": "2589574",
+        "routeId": "15763",
         "coordinates": [
-          -90.39098358154297,
-          38.77312469482422
+          -90.36177062988281,
+          38.67418670654297
         ],
-        "route_short_name": "100",
-        "route_long_name": "Hazelwood"
+        "route_short_name": "91",
+        "route_long_name": "Olive",
+        "route_full_name": "91 Olive"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 17,
-        "popupContent": "Route: 94 <br>Route Name: Page <br>TripID: 2589850 <br>VehicleID: 6640"
+        "popupContent": "Route: 70 <br>Route Name: Grand <br>TripID: 2587501 <br>VehicleID: 6639"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.3847427368164,
-          38.691062927246094
+          -90.26166534423828,
+          38.561737060546875
         ]
       },
       "data": {
-        "vehicleId": "6640",
-        "tripId": "2589850",
-        "routeId": "15764",
+        "vehicleId": "6639",
+        "tripId": "2587501",
+        "routeId": "15753",
         "coordinates": [
-          -90.3847427368164,
-          38.691062927246094
+          -90.26166534423828,
+          38.561737060546875
         ],
-        "route_short_name": "94",
-        "route_long_name": "Page"
+        "route_short_name": "70",
+        "route_long_name": "Grand",
+        "route_full_name": "70 Grand"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 18,
-        "popupContent": "Route: 35 <br>Route Name: Rock Road <br>TripID: 2584936 <br>VehicleID: 6641"
+        "popupContent": "Route: 94 <br>Route Name: Page <br>TripID: 2589823 <br>VehicleID: 6640"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.43360900878906,
-          38.75447082519531
+          -90.22750854492188,
+          38.64588165283203
         ]
       },
       "data": {
-        "vehicleId": "6641",
-        "tripId": "2584936",
-        "routeId": "15738",
+        "vehicleId": "6640",
+        "tripId": "2589823",
+        "routeId": "15764",
         "coordinates": [
-          -90.43360900878906,
-          38.75447082519531
+          -90.22750854492188,
+          38.64588165283203
         ],
-        "route_short_name": "35",
-        "route_long_name": "Rock Road"
+        "route_short_name": "94",
+        "route_long_name": "Page",
+        "route_full_name": "94 Page"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 19,
-        "popupContent": "Route: 64 <br>Route Name: Lucas-Hunt <br>TripID: 2587046 <br>VehicleID: 6643"
+        "popupContent": "Route: 77 <br>Route Name: Village Square <br>TripID: 2588824 <br>VehicleID: 6645"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.3027572631836,
-          38.684696197509766
+          -90.33528137207031,
+          38.75109100341797
         ]
       },
       "data": {
-        "vehicleId": "6643",
-        "tripId": "2587046",
-        "routeId": "15751",
+        "vehicleId": "6645",
+        "tripId": "2588824",
+        "routeId": "15759",
         "coordinates": [
-          -90.3027572631836,
-          38.684696197509766
+          -90.33528137207031,
+          38.75109100341797
         ],
-        "route_short_name": "64",
-        "route_long_name": "Lucas-Hunt"
+        "route_short_name": "77",
+        "route_long_name": "Village Square",
+        "route_full_name": "77 Village Square"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 20,
-        "popupContent": "Route: 61 <br>Route Name: Chambers Rd <br>TripID: 2586730 <br>VehicleID: 6644"
+        "popupContent": "Route: 6 <br>Route Name: Rosemont <br>TripID: 2591401 <br>VehicleID: 6651"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.22891235351562,
-          38.74993133544922
+          -90.10306549072266,
+          38.623329162597656
         ]
       },
       "data": {
-        "vehicleId": "6644",
-        "tripId": "2586730",
-        "routeId": "15750",
+        "vehicleId": "6651",
+        "tripId": "2591401",
+        "routeId": "15774",
         "coordinates": [
-          -90.22891235351562,
-          38.74993133544922
+          -90.10306549072266,
+          38.623329162597656
         ],
-        "route_short_name": "61",
-        "route_long_name": "Chambers Rd"
+        "route_short_name": "6",
+        "route_long_name": "Rosemont",
+        "route_full_name": "6 Rosemont"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 21,
-        "popupContent": "Route: 77 <br>Route Name: Village Square <br>TripID: 2588798 <br>VehicleID: 6645"
+        "popupContent": "Route: 13 <br>Route Name: Caseyville-Marybelle <br>TripID: 2592155 <br>VehicleID: 6701"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.33621215820312,
-          38.7994499206543
+          -90.06607818603516,
+          38.598323822021484
         ]
       },
       "data": {
-        "vehicleId": "6645",
-        "tripId": "2588798",
-        "routeId": "15759",
+        "vehicleId": "6701",
+        "tripId": "2592155",
+        "routeId": "15779",
         "coordinates": [
-          -90.33621215820312,
-          38.7994499206543
+          -90.06607818603516,
+          38.598323822021484
         ],
-        "route_short_name": "77",
-        "route_long_name": "Village Square"
+        "route_short_name": "13",
+        "route_long_name": "Caseyville-Marybelle",
+        "route_full_name": "13 Caseyville-Marybelle"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 22,
-        "popupContent": "Route: 4 <br>Route Name: 19th & Central <br>TripID: 2591201 <br>VehicleID: 6656"
+        "popupContent": "Route: 8 <br>Route Name: Shaw-Cherokee <br>TripID: 2582383 <br>VehicleID: 6709"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.16111755371094,
-          38.60540008544922
+          -90.23381805419922,
+          38.574851989746094
         ]
       },
       "data": {
-        "vehicleId": "6656",
-        "tripId": "2591201",
-        "routeId": "15772",
+        "vehicleId": "6709",
+        "tripId": "2582383",
+        "routeId": "15723",
         "coordinates": [
-          -90.16111755371094,
-          38.60540008544922
+          -90.23381805419922,
+          38.574851989746094
         ],
-        "route_short_name": "4",
-        "route_long_name": "19th & Central"
+        "route_short_name": "8",
+        "route_long_name": "Shaw-Cherokee",
+        "route_full_name": "8 Shaw-Cherokee"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 23,
-        "popupContent": "Route: 1 <br>Route Name: Main Street - State Street <br>TripID: 2590853 <br>VehicleID: 6658"
+        "popupContent": "Route: 58 <br>Route Name: Chesterfield Valley <br>TripID: 2586268 <br>VehicleID: 6710"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.01527404785156,
-          38.53263473510742
+          -90.64575958251953,
+          38.67382049560547
         ]
       },
       "data": {
-        "vehicleId": "6658",
-        "tripId": "2590853",
-        "routeId": "15770",
+        "vehicleId": "6710",
+        "tripId": "2586268",
+        "routeId": "15747",
         "coordinates": [
-          -90.01527404785156,
-          38.53263473510742
+          -90.64575958251953,
+          38.67382049560547
         ],
-        "route_short_name": "1",
-        "route_long_name": "Main Street - State Street"
+        "route_short_name": "58",
+        "route_long_name": "Chesterfield Valley",
+        "route_full_name": "58 Chesterfield Valley"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 24,
-        "popupContent": "Route: 13 <br>Route Name: Caseyville-Marybelle <br>TripID: 2592143 <br>VehicleID: 6701"
+        "popupContent": "Route: 30 <br>Route Name: Arsenal <br>TripID: 2584130 <br>VehicleID: 6713"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.04835510253906,
-          38.59469223022461
+          -90.28875732421875,
+          38.606998443603516
         ]
       },
       "data": {
-        "vehicleId": "6701",
-        "tripId": "2592143",
-        "routeId": "15779",
+        "vehicleId": "6713",
+        "tripId": "2584130",
+        "routeId": "15733",
         "coordinates": [
-          -90.04835510253906,
-          38.59469223022461
+          -90.28875732421875,
+          38.606998443603516
         ],
-        "route_short_name": "13",
-        "route_long_name": "Caseyville-Marybelle"
+        "route_short_name": "30",
+        "route_long_name": "Arsenal",
+        "route_full_name": "30 Arsenal"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 25,
-        "popupContent": "Route: 21 <br>Route Name: Watson Rd <br>TripID: 2594673 <br>VehicleID: 6710"
+        "popupContent": "Route: 98 <br>Route Name: Ballas-North Hanley <br>TripID: 2590538 <br>VehicleID: 6719"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.38375854492188,
-          38.557186126708984
+          -90.38208770751953,
+          38.74325180053711
         ]
       },
       "data": {
-        "vehicleId": "6710",
-        "tripId": "2594673",
-        "routeId": "15732",
+        "vehicleId": "6719",
+        "tripId": "2590538",
+        "routeId": "15767",
         "coordinates": [
-          -90.38375854492188,
-          38.557186126708984
+          -90.38208770751953,
+          38.74325180053711
         ],
-        "route_short_name": "21",
-        "route_long_name": "Watson Rd"
+        "route_short_name": "98",
+        "route_long_name": "Ballas-North Hanley",
+        "route_full_name": "98 Ballas-North Hanley"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 26,
-        "popupContent": "Route: 49 <br>Route Name: Lindbergh <br>TripID: 2585851 <br>VehicleID: 6713"
+        "popupContent": "Route: 9 <br>Route Name: Oakville <br>TripID: 2582513 <br>VehicleID: 6720"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.40526580810547,
-          38.6540641784668
+          -90.2972412109375,
+          38.49280548095703
         ]
       },
       "data": {
-        "vehicleId": "6713",
-        "tripId": "2585851",
-        "routeId": "15744",
+        "vehicleId": "6720",
+        "tripId": "2582513",
+        "routeId": "15724",
         "coordinates": [
-          -90.40526580810547,
-          38.6540641784668
+          -90.2972412109375,
+          38.49280548095703
         ],
-        "route_short_name": "49",
-        "route_long_name": "Lindbergh"
+        "route_short_name": "9",
+        "route_long_name": "Oakville",
+        "route_full_name": "9 Oakville"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 27,
-        "popupContent": "Route: 31 <br>Route Name: Chouteau <br>TripID: 2584259 <br>VehicleID: 6717"
+        "popupContent": "Route: 31 <br>Route Name: Chouteau <br>TripID: 2584286 <br>VehicleID: 6722"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.28146362304688,
-          38.623172760009766
+          -90.32227325439453,
+          38.612342834472656
         ]
       },
       "data": {
-        "vehicleId": "6717",
-        "tripId": "2584259",
+        "vehicleId": "6722",
+        "tripId": "2584286",
         "routeId": "15734",
         "coordinates": [
-          -90.28146362304688,
-          38.623172760009766
+          -90.32227325439453,
+          38.612342834472656
         ],
         "route_short_name": "31",
-        "route_long_name": "Chouteau"
+        "route_long_name": "Chouteau",
+        "route_full_name": "31 Chouteau"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 28,
-        "popupContent": "Route: 49 <br>Route Name: Lindbergh <br>TripID: 2585831 <br>VehicleID: 6718"
+        "popupContent": "Route: 65 <br>Route Name: Outer Forty <br>TripID: 2587183 <br>VehicleID: 6723"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.35881042480469,
-          38.73672103881836
+          -90.48300170898438,
+          38.63927459716797
         ]
       },
       "data": {
-        "vehicleId": "6718",
-        "tripId": "2585831",
-        "routeId": "15744",
+        "vehicleId": "6723",
+        "tripId": "2587183",
+        "routeId": "15752",
         "coordinates": [
-          -90.35881042480469,
-          38.73672103881836
+          -90.48300170898438,
+          38.63927459716797
         ],
-        "route_short_name": "49",
-        "route_long_name": "Lindbergh"
+        "route_short_name": "65",
+        "route_long_name": "Outer Forty",
+        "route_full_name": "65 Outer Forty"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 29,
-        "popupContent": "Route: 65 <br>Route Name: Outer Forty <br>TripID: 2587190 <br>VehicleID: 6723"
+        "popupContent": "Route: 49 <br>Route Name: Lindbergh <br>TripID: 2585844 <br>VehicleID: 6725"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.55547332763672,
-          38.661102294921875
+          -90.40559387207031,
+          38.6365852355957
         ]
       },
       "data": {
-        "vehicleId": "6723",
-        "tripId": "2587190",
-        "routeId": "15752",
+        "vehicleId": "6725",
+        "tripId": "2585844",
+        "routeId": "15744",
         "coordinates": [
-          -90.55547332763672,
-          38.661102294921875
+          -90.40559387207031,
+          38.6365852355957
         ],
-        "route_short_name": "65",
-        "route_long_name": "Outer Forty"
+        "route_short_name": "49",
+        "route_long_name": "Lindbergh",
+        "route_full_name": "49 Lindbergh"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 30,
-        "popupContent": "Route: 98 <br>Route Name: Ballas-North Hanley <br>TripID: 2590549 <br>VehicleID: 6731"
+        "popupContent": "Route: 11 <br>Route Name: Chippewa <br>TripID: 2583001 <br>VehicleID: 6728"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.45220947265625,
-          38.71450424194336
+          -90.22022247314453,
+          38.6185417175293
         ]
       },
       "data": {
-        "vehicleId": "6731",
-        "tripId": "2590549",
-        "routeId": "15767",
+        "vehicleId": "6728",
+        "tripId": "2583001",
+        "routeId": "15726",
         "coordinates": [
-          -90.45220947265625,
-          38.71450424194336
+          -90.22022247314453,
+          38.6185417175293
         ],
-        "route_short_name": "98",
-        "route_long_name": "Ballas-North Hanley"
+        "route_short_name": "11",
+        "route_long_name": "Chippewa",
+        "route_full_name": "11 Chippewa"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 31,
-        "popupContent": "Route: 98 <br>Route Name: Ballas-North Hanley <br>TripID: 2590531 <br>VehicleID: 6736"
+        "popupContent": "Route: 49 <br>Route Name: Lindbergh <br>TripID: 2585825 <br>VehicleID: 6732"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.4433822631836,
-          38.66987228393555
+          -90.34288787841797,
+          38.5177116394043
         ]
       },
       "data": {
-        "vehicleId": "6736",
-        "tripId": "2590531",
-        "routeId": "15767",
+        "vehicleId": "6732",
+        "tripId": "2585825",
+        "routeId": "15744",
         "coordinates": [
-          -90.4433822631836,
-          38.66987228393555
+          -90.34288787841797,
+          38.5177116394043
         ],
-        "route_short_name": "98",
-        "route_long_name": "Ballas-North Hanley"
+        "route_short_name": "49",
+        "route_long_name": "Lindbergh",
+        "route_full_name": "49 Lindbergh"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 32,
-        "popupContent": "Route: 9 <br>Route Name: Oakville <br>TripID: 2582537 <br>VehicleID: 6740"
+        "popupContent": "Route: 98 <br>Route Name: Ballas-North Hanley <br>TripID: 2590543 <br>VehicleID: 6736"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.30430603027344,
-          38.4785270690918
+          -90.44694519042969,
+          38.64345932006836
         ]
       },
       "data": {
-        "vehicleId": "6740",
-        "tripId": "2582537",
-        "routeId": "15724",
+        "vehicleId": "6736",
+        "tripId": "2590543",
+        "routeId": "15767",
         "coordinates": [
-          -90.30430603027344,
-          38.4785270690918
+          -90.44694519042969,
+          38.64345932006836
         ],
-        "route_short_name": "9",
-        "route_long_name": "Oakville"
+        "route_short_name": "98",
+        "route_long_name": "Ballas-North Hanley",
+        "route_full_name": "98 Ballas-North Hanley"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 33,
-        "popupContent": "Route: 33 <br>Route Name: Midland <br>TripID: 2584638 <br>VehicleID: 6741"
+        "popupContent": "Route: 8 <br>Route Name: Shaw-Cherokee <br>TripID: 2582364 <br>VehicleID: 6737"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.36235809326172,
-          38.69923400878906
+          -90.2567138671875,
+          38.62617111206055
         ]
       },
       "data": {
-        "vehicleId": "6741",
-        "tripId": "2584638",
-        "routeId": "15736",
+        "vehicleId": "6737",
+        "tripId": "2582364",
+        "routeId": "15723",
         "coordinates": [
-          -90.36235809326172,
-          38.69923400878906
+          -90.2567138671875,
+          38.62617111206055
         ],
-        "route_short_name": "33",
-        "route_long_name": "Midland"
+        "route_short_name": "8",
+        "route_long_name": "Shaw-Cherokee",
+        "route_full_name": "8 Shaw-Cherokee"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 34,
-        "popupContent": "Route: 10 <br>Route Name: Gravois-Lindell <br>TripID: 2582691 <br>VehicleID: 6742"
+        "popupContent": "Route: 33 <br>Route Name: Midland <br>TripID: 2584636 <br>VehicleID: 6741"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.26573944091797,
-          38.639888763427734
+          -90.36180114746094,
+          38.68559646606445
         ]
       },
       "data": {
-        "vehicleId": "6742",
-        "tripId": "2582691",
-        "routeId": "15725",
+        "vehicleId": "6741",
+        "tripId": "2584636",
+        "routeId": "15736",
         "coordinates": [
-          -90.26573944091797,
-          38.639888763427734
+          -90.36180114746094,
+          38.68559646606445
         ],
-        "route_short_name": "10",
-        "route_long_name": "Gravois-Lindell"
+        "route_short_name": "33",
+        "route_long_name": "Midland",
+        "route_full_name": "33 Midland"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 35,
-        "popupContent": "Route: 15 <br>Route Name: Belleville-Shiloh-OFallon <br>TripID: 2592234 <br>VehicleID: 6756"
+        "popupContent": "Route: 1 <br>Route Name: Main Street - State Street <br>TripID: 2590836 <br>VehicleID: 6753"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.96239471435547,
-          38.53614044189453
+          -90.06453704833984,
+          38.59123229980469
         ]
       },
       "data": {
-        "vehicleId": "6756",
-        "tripId": "2592234",
-        "routeId": "15781",
+        "vehicleId": "6753",
+        "tripId": "2590836",
+        "routeId": "15770",
         "coordinates": [
-          -89.96239471435547,
-          38.53614044189453
+          -90.06453704833984,
+          38.59123229980469
         ],
-        "route_short_name": "15",
-        "route_long_name": "Belleville-Shiloh-OFallon"
+        "route_short_name": "1",
+        "route_long_name": "Main Street - State Street",
+        "route_full_name": "1 Main Street - State Street"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 36,
-        "popupContent": "Route: 16 <br>Route Name: St Clair Square <br>TripID: 2592332 <br>VehicleID: 6758"
+        "popupContent": "Route: 2 <br>Route Name: Cahokia <br>TripID: 2591049 <br>VehicleID: 6757"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.98167419433594,
-          38.59595489501953
+          -90.15794372558594,
+          38.579429626464844
         ]
       },
       "data": {
-        "vehicleId": "6758",
-        "tripId": "2592332",
-        "routeId": "15782",
+        "vehicleId": "6757",
+        "tripId": "2591049",
+        "routeId": "15771",
         "coordinates": [
-          -89.98167419433594,
-          38.59595489501953
+          -90.15794372558594,
+          38.579429626464844
         ],
-        "route_short_name": "16",
-        "route_long_name": "St Clair Square"
+        "route_short_name": "2",
+        "route_long_name": "Cahokia",
+        "route_full_name": "2 Cahokia"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 37,
-        "popupContent": "Route: 91 <br>Route Name: Olive <br>TripID: 2589542 <br>VehicleID: 6804"
+        "popupContent": "Route: 91 <br>Route Name: Olive <br>TripID: 2589541 <br>VehicleID: 6802"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.308349609375,
-          38.66305160522461
+          -90.45091247558594,
+          38.6723747253418
         ]
       },
       "data": {
-        "vehicleId": "6804",
-        "tripId": "2589542",
+        "vehicleId": "6802",
+        "tripId": "2589541",
         "routeId": "15763",
         "coordinates": [
-          -90.308349609375,
-          38.66305160522461
+          -90.45091247558594,
+          38.6723747253418
         ],
         "route_short_name": "91",
-        "route_long_name": "Olive"
+        "route_long_name": "Olive",
+        "route_full_name": "91 Olive"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 38,
-        "popupContent": "Route: 4 <br>Route Name: Natural Bridge <br>TripID: 2582096 <br>VehicleID: 6807"
+        "popupContent": "Route: 35 <br>Route Name: Rock Road <br>TripID: 2584926 <br>VehicleID: 6804"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.24187469482422,
-          38.672054290771484
+          -90.35652923583984,
+          38.714195251464844
         ]
       },
       "data": {
-        "vehicleId": "6807",
-        "tripId": "2582096",
-        "routeId": "15721",
+        "vehicleId": "6804",
+        "tripId": "2584926",
+        "routeId": "15738",
         "coordinates": [
-          -90.24187469482422,
-          38.672054290771484
+          -90.35652923583984,
+          38.714195251464844
         ],
-        "route_short_name": "4",
-        "route_long_name": "Natural Bridge"
+        "route_short_name": "35",
+        "route_long_name": "Rock Road",
+        "route_full_name": "35 Rock Road"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 39,
-        "popupContent": "Route: 97 <br>Route Name: Delmar <br>TripID: 2590326 <br>VehicleID: 6817"
+        "popupContent": "Route: 97 <br>Route Name: Delmar <br>TripID: 2590337 <br>VehicleID: 6808"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.26759338378906,
-          38.651912689208984
+          -90.22950744628906,
+          38.6412239074707
         ]
       },
       "data": {
-        "vehicleId": "6817",
-        "tripId": "2590326",
+        "vehicleId": "6808",
+        "tripId": "2590337",
         "routeId": "15766",
         "coordinates": [
-          -90.26759338378906,
-          38.651912689208984
+          -90.22950744628906,
+          38.6412239074707
         ],
         "route_short_name": "97",
-        "route_long_name": "Delmar"
+        "route_long_name": "Delmar",
+        "route_full_name": "97 Delmar"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 40,
-        "popupContent": "Route: 94 <br>Route Name: Page <br>TripID: 2589849 <br>VehicleID: 6819"
+        "popupContent": "Route: 97 <br>Route Name: Delmar <br>TripID: 2590376 <br>VehicleID: 6809"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.2696533203125,
-          38.66070556640625
+          -90.30412292480469,
+          38.655921936035156
         ]
       },
       "data": {
-        "vehicleId": "6819",
-        "tripId": "2589849",
-        "routeId": "15764",
+        "vehicleId": "6809",
+        "tripId": "2590376",
+        "routeId": "15766",
         "coordinates": [
-          -90.2696533203125,
-          38.66070556640625
+          -90.30412292480469,
+          38.655921936035156
         ],
-        "route_short_name": "94",
-        "route_long_name": "Page"
+        "route_short_name": "97",
+        "route_long_name": "Delmar",
+        "route_full_name": "97 Delmar"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 41,
-        "popupContent": "Route: 90 <br>Route Name: Hampton <br>TripID: 2589315 <br>VehicleID: 6821"
+        "popupContent": "Route: 70 <br>Route Name: Grand <br>TripID: 2587497 <br>VehicleID: 6814"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.2620849609375,
-          38.70329666137695
+          -90.22722625732422,
+          38.64624786376953
         ]
       },
       "data": {
-        "vehicleId": "6821",
-        "tripId": "2589315",
-        "routeId": "15762",
+        "vehicleId": "6814",
+        "tripId": "2587497",
+        "routeId": "15753",
         "coordinates": [
-          -90.2620849609375,
-          38.70329666137695
+          -90.22722625732422,
+          38.64624786376953
         ],
-        "route_short_name": "90",
-        "route_long_name": "Hampton"
+        "route_short_name": "70",
+        "route_long_name": "Grand",
+        "route_full_name": "70 Grand"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 42,
-        "popupContent": "Route: 91 <br>Route Name: Olive <br>TripID: 2589598 <br>VehicleID: 6825"
+        "popupContent": "Route: 4 <br>Route Name: Natural Bridge <br>TripID: 2582067 <br>VehicleID: 6816"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.29600524902344,
-          38.65524673461914
+          -90.23258209228516,
+          38.668025970458984
         ]
       },
       "data": {
-        "vehicleId": "6825",
-        "tripId": "2589598",
-        "routeId": "15763",
+        "vehicleId": "6816",
+        "tripId": "2582067",
+        "routeId": "15721",
         "coordinates": [
-          -90.29600524902344,
-          38.65524673461914
+          -90.23258209228516,
+          38.668025970458984
         ],
-        "route_short_name": "91",
-        "route_long_name": "Olive"
+        "route_short_name": "4",
+        "route_long_name": "Natural Bridge",
+        "route_full_name": "4 Natural Bridge"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 43,
-        "popupContent": "Route: 74 <br>Route Name: Florissant <br>TripID: 2588349 <br>VehicleID: 6828"
+        "popupContent": "Route: 94 <br>Route Name: Page <br>TripID: 2589824 <br>VehicleID: 6819"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.23622131347656,
-          38.69154739379883
+          -90.32946014404297,
+          38.68345260620117
         ]
       },
       "data": {
-        "vehicleId": "6828",
-        "tripId": "2588349",
-        "routeId": "15756",
+        "vehicleId": "6819",
+        "tripId": "2589824",
+        "routeId": "15764",
         "coordinates": [
-          -90.23622131347656,
-          38.69154739379883
+          -90.32946014404297,
+          38.68345260620117
         ],
-        "route_short_name": "74",
-        "route_long_name": "Florissant"
+        "route_short_name": "94",
+        "route_long_name": "Page",
+        "route_full_name": "94 Page"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 44,
-        "popupContent": "Route: 32 <br>Route Name: Dr ML King <br>TripID: 2584423 <br>VehicleID: 6832"
+        "popupContent": "Route: 90 <br>Route Name: Hampton <br>TripID: 2589327 <br>VehicleID: 6821"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.25321960449219,
-          38.66013717651367
+          -90.28845977783203,
+          38.60835647583008
         ]
       },
       "data": {
-        "vehicleId": "6832",
-        "tripId": "2584423",
-        "routeId": "15735",
+        "vehicleId": "6821",
+        "tripId": "2589327",
+        "routeId": "15762",
         "coordinates": [
-          -90.25321960449219,
-          38.66013717651367
+          -90.28845977783203,
+          38.60835647583008
         ],
-        "route_short_name": "32",
-        "route_long_name": "Dr ML King"
+        "route_short_name": "90",
+        "route_long_name": "Hampton",
+        "route_full_name": "90 Hampton"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 45,
-        "popupContent": "Route: 61 <br>Route Name: Chambers Rd <br>TripID: 2586793 <br>VehicleID: 6833"
+        "popupContent": "Route: 77 <br>Route Name: Village Square <br>TripID: 2588805 <br>VehicleID: 6823"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.2540054321289,
-          38.74935531616211
+          -90.2809829711914,
+          38.778350830078125
         ]
       },
       "data": {
-        "vehicleId": "6833",
-        "tripId": "2586793",
-        "routeId": "15750",
+        "vehicleId": "6823",
+        "tripId": "2588805",
+        "routeId": "15759",
         "coordinates": [
-          -90.2540054321289,
-          38.74935531616211
+          -90.2809829711914,
+          38.778350830078125
         ],
-        "route_short_name": "61",
-        "route_long_name": "Chambers Rd"
+        "route_short_name": "77",
+        "route_long_name": "Village Square",
+        "route_full_name": "77 Village Square"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 46,
-        "popupContent": "Route: 94 <br>Route Name: Page <br>TripID: 2589787 <br>VehicleID: 6835"
+        "popupContent": "Route: 94 <br>Route Name: Page <br>TripID: 2589835 <br>VehicleID: 6824"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.34754180908203,
-          38.68549728393555
+          -90.20890808105469,
+          38.62992477416992
         ]
       },
       "data": {
-        "vehicleId": "6835",
-        "tripId": "2589787",
+        "vehicleId": "6824",
+        "tripId": "2589835",
         "routeId": "15764",
         "coordinates": [
-          -90.34754180908203,
-          38.68549728393555
+          -90.20890808105469,
+          38.62992477416992
         ],
         "route_short_name": "94",
-        "route_long_name": "Page"
+        "route_long_name": "Page",
+        "route_full_name": "94 Page"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 47,
-        "popupContent": "Route: 4 <br>Route Name: Natural Bridge <br>TripID: 2582099 <br>VehicleID: 6839"
+        "popupContent": "Route: 32 <br>Route Name: Dr ML King <br>TripID: 2584412 <br>VehicleID: 6830"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.24899291992188,
-          38.67523956298828
+          -90.28070068359375,
+          38.67280578613281
         ]
       },
       "data": {
-        "vehicleId": "6839",
-        "tripId": "2582099",
-        "routeId": "15721",
+        "vehicleId": "6830",
+        "tripId": "2584412",
+        "routeId": "15735",
         "coordinates": [
-          -90.24899291992188,
-          38.67523956298828
+          -90.28070068359375,
+          38.67280578613281
         ],
-        "route_short_name": "4",
-        "route_long_name": "Natural Bridge"
+        "route_short_name": "32",
+        "route_long_name": "Dr ML King",
+        "route_full_name": "32 Dr ML King"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 48,
-        "popupContent": "Route: 70 <br>Route Name: Grand <br>TripID: 2587494 <br>VehicleID: 6840"
+        "popupContent": "Route: 78 <br>Route Name: Bellefontaine <br>TripID: 2588974 <br>VehicleID: 6835"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.22110748291016,
-          38.655216217041016
+          -90.27845001220703,
+          38.7816047668457
         ]
       },
       "data": {
-        "vehicleId": "6840",
-        "tripId": "2587494",
-        "routeId": "15753",
+        "vehicleId": "6835",
+        "tripId": "2588974",
+        "routeId": "15760",
         "coordinates": [
-          -90.22110748291016,
-          38.655216217041016
+          -90.27845001220703,
+          38.7816047668457
         ],
-        "route_short_name": "70",
-        "route_long_name": "Grand"
+        "route_short_name": "78",
+        "route_long_name": "Bellefontaine",
+        "route_full_name": "78 Bellefontaine"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 49,
-        "popupContent": "Route: 70 <br>Route Name: Grand <br>TripID: 2587615 <br>VehicleID: 6845"
+        "popupContent": "Route: 41 <br>Route Name: Lee <br>TripID: 2585286 <br>VehicleID: 6841"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.23336791992188,
-          38.63525390625
+          -90.24737548828125,
+          38.68965530395508
         ]
       },
       "data": {
-        "vehicleId": "6845",
-        "tripId": "2587615",
-        "routeId": "15753",
+        "vehicleId": "6841",
+        "tripId": "2585286",
+        "routeId": "15740",
         "coordinates": [
-          -90.23336791992188,
-          38.63525390625
+          -90.24737548828125,
+          38.68965530395508
         ],
-        "route_short_name": "70",
-        "route_long_name": "Grand"
+        "route_short_name": "41",
+        "route_long_name": "Lee",
+        "route_full_name": "41 Lee"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 50,
-        "popupContent": "Route: 16 <br>Route Name: St Clair Square <br>TripID: 2592308 <br>VehicleID: 6854"
+        "popupContent": "Route: 1 <br>Route Name: Main Street - State Street <br>TripID: 2590835 <br>VehicleID: 6853"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.98361206054688,
-          38.540836334228516
+          -90.00255584716797,
+          38.51787185668945
         ]
       },
       "data": {
-        "vehicleId": "6854",
-        "tripId": "2592308",
-        "routeId": "15782",
+        "vehicleId": "6853",
+        "tripId": "2590835",
+        "routeId": "15770",
         "coordinates": [
-          -89.98361206054688,
-          38.540836334228516
+          -90.00255584716797,
+          38.51787185668945
         ],
-        "route_short_name": "16",
-        "route_long_name": "St Clair Square"
+        "route_short_name": "1",
+        "route_long_name": "Main Street - State Street",
+        "route_full_name": "1 Main Street - State Street"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 51,
-        "popupContent": "Route: 73 <br>Route Name: Carondelet <br>TripID: 2588016 <br>VehicleID: 6907"
+        "popupContent": "Route: 11 <br>Route Name: Chippewa <br>TripID: 2583002 <br>VehicleID: 6911"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.2470703125,
-          38.5611457824707
+          -90.30500030517578,
+          38.5910530090332
         ]
       },
       "data": {
-        "vehicleId": "6907",
-        "tripId": "2588016",
-        "routeId": "15755",
+        "vehicleId": "6911",
+        "tripId": "2583002",
+        "routeId": "15726",
         "coordinates": [
-          -90.2470703125,
-          38.5611457824707
+          -90.30500030517578,
+          38.5910530090332
         ],
-        "route_short_name": "73",
-        "route_long_name": "Carondelet"
+        "route_short_name": "11",
+        "route_long_name": "Chippewa",
+        "route_full_name": "11 Chippewa"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 52,
-        "popupContent": "Route: 10 <br>Route Name: Gravois-Lindell <br>TripID: 2582739 <br>VehicleID: 6911"
+        "popupContent": "Route: 95 <br>Route Name: Kingshighway <br>TripID: 2590113 <br>VehicleID: 6913"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.20181274414062,
-          38.626075744628906
+          -90.27559661865234,
+          38.58831787109375
         ]
       },
       "data": {
-        "vehicleId": "6911",
-        "tripId": "2582739",
-        "routeId": "15725",
+        "vehicleId": "6913",
+        "tripId": "2590113",
+        "routeId": "15765",
         "coordinates": [
-          -90.20181274414062,
-          38.626075744628906
+          -90.27559661865234,
+          38.58831787109375
         ],
-        "route_short_name": "10",
-        "route_long_name": "Gravois-Lindell"
+        "route_short_name": "95",
+        "route_long_name": "Kingshighway",
+        "route_full_name": "95 Kingshighway"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 53,
-        "popupContent": "Route: 73 <br>Route Name: Carondelet <br>TripID: 2588053 <br>VehicleID: 6912"
+        "popupContent": "Route: 73 <br>Route Name: Carondelet <br>TripID: 2588034 <br>VehicleID: 6914"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.23017883300781,
-          38.57916259765625
+          -90.2091293334961,
+          38.60900115966797
         ]
       },
       "data": {
-        "vehicleId": "6912",
-        "tripId": "2588053",
+        "vehicleId": "6914",
+        "tripId": "2588034",
         "routeId": "15755",
         "coordinates": [
-          -90.23017883300781,
-          38.57916259765625
+          -90.2091293334961,
+          38.60900115966797
         ],
         "route_short_name": "73",
-        "route_long_name": "Carondelet"
+        "route_long_name": "Carondelet",
+        "route_full_name": "73 Carondelet"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 54,
-        "popupContent": "Route: 19 <br>Route Name: St Louis Ave <br>TripID: 2583802 <br>VehicleID: 6914"
+        "popupContent": "Route: 13 <br>Route Name: Union <br>TripID: 2583225 <br>VehicleID: 6917"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.24308776855469,
-          38.66537094116211
+          -90.26605987548828,
+          38.667999267578125
         ]
       },
       "data": {
-        "vehicleId": "6914",
-        "tripId": "2583802",
-        "routeId": "15731",
+        "vehicleId": "6917",
+        "tripId": "2583225",
+        "routeId": "15727",
         "coordinates": [
-          -90.24308776855469,
-          38.66537094116211
+          -90.26605987548828,
+          38.667999267578125
         ],
-        "route_short_name": "19",
-        "route_long_name": "St Louis Ave"
+        "route_short_name": "13",
+        "route_long_name": "Union",
+        "route_full_name": "13 Union"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 55,
-        "popupContent": "Route: 16 <br>Route Name: City Limits <br>TripID: 2583471 <br>VehicleID: 6917"
+        "popupContent": "Route: 76 <br>Route Name: McDonnell-Waterford <br>TripID: 2588657 <br>VehicleID: 6927"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.31389617919922,
-          38.6140251159668
+          -90.33830261230469,
+          38.749786376953125
         ]
       },
       "data": {
-        "vehicleId": "6917",
-        "tripId": "2583471",
-        "routeId": "15728",
+        "vehicleId": "6927",
+        "tripId": "2588657",
+        "routeId": "15758",
         "coordinates": [
-          -90.31389617919922,
-          38.6140251159668
+          -90.33830261230469,
+          38.749786376953125
         ],
-        "route_short_name": "16",
-        "route_long_name": "City Limits"
+        "route_short_name": "76",
+        "route_long_name": "McDonnell-Waterford",
+        "route_full_name": "76 McDonnell-Waterford"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 56,
-        "popupContent": "Route: 77 <br>Route Name: Village Square <br>TripID: 2588816 <br>VehicleID: 6926"
+        "popupContent": "Route: 90 <br>Route Name: Hampton <br>TripID: 2589356 <br>VehicleID: 6928"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.33256530761719,
-          38.79999542236328
+          -90.28643798828125,
+          38.632144927978516
         ]
       },
       "data": {
-        "vehicleId": "6926",
-        "tripId": "2588816",
-        "routeId": "15759",
+        "vehicleId": "6928",
+        "tripId": "2589356",
+        "routeId": "15762",
         "coordinates": [
-          -90.33256530761719,
-          38.79999542236328
+          -90.28643798828125,
+          38.632144927978516
         ],
-        "route_short_name": "77",
-        "route_long_name": "Village Square"
+        "route_short_name": "90",
+        "route_long_name": "Hampton",
+        "route_full_name": "90 Hampton"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 57,
-        "popupContent": "Route: 90 <br>Route Name: Hampton <br>TripID: 2589316 <br>VehicleID: 6928"
+        "popupContent": "Route: 64 <br>Route Name: Lucas-Hunt <br>TripID: 2587019 <br>VehicleID: 6930"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.28465270996094,
-          38.65193557739258
+          -90.2840805053711,
+          38.71323013305664
         ]
       },
       "data": {
-        "vehicleId": "6928",
-        "tripId": "2589316",
-        "routeId": "15762",
+        "vehicleId": "6930",
+        "tripId": "2587019",
+        "routeId": "15751",
         "coordinates": [
-          -90.28465270996094,
-          38.65193557739258
+          -90.2840805053711,
+          38.71323013305664
         ],
-        "route_short_name": "90",
-        "route_long_name": "Hampton"
+        "route_short_name": "64",
+        "route_long_name": "Lucas-Hunt",
+        "route_full_name": "64 Lucas-Hunt"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 58,
-        "popupContent": "Route: 64 <br>Route Name: Lucas-Hunt <br>TripID: 2587004 <br>VehicleID: 6930"
+        "popupContent": "Route: 32 <br>Route Name: Dr ML King <br>TripID: 2584453 <br>VehicleID: 6931"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.2770004272461,
-          38.723228454589844
+          -90.21304321289062,
+          38.64506149291992
         ]
       },
       "data": {
-        "vehicleId": "6930",
-        "tripId": "2587004",
-        "routeId": "15751",
+        "vehicleId": "6931",
+        "tripId": "2584453",
+        "routeId": "15735",
         "coordinates": [
-          -90.2770004272461,
-          38.723228454589844
+          -90.21304321289062,
+          38.64506149291992
         ],
-        "route_short_name": "64",
-        "route_long_name": "Lucas-Hunt"
+        "route_short_name": "32",
+        "route_long_name": "Dr ML King",
+        "route_full_name": "32 Dr ML King"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 59,
-        "popupContent": "Route: 35 <br>Route Name: Rock Road <br>TripID: 2584937 <br>VehicleID: 6931"
+        "popupContent": "Route: 34 <br>Route Name: Earth City <br>TripID: 2584720 <br>VehicleID: 6938"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.31684112548828,
-          38.69288635253906
+          -90.46466827392578,
+          38.777008056640625
         ]
       },
       "data": {
-        "vehicleId": "6931",
-        "tripId": "2584937",
-        "routeId": "15738",
+        "vehicleId": "6938",
+        "tripId": "2584720",
+        "routeId": "15737",
         "coordinates": [
-          -90.31684112548828,
-          38.69288635253906
+          -90.46466827392578,
+          38.777008056640625
         ],
-        "route_short_name": "35",
-        "route_long_name": "Rock Road"
+        "route_short_name": "34",
+        "route_long_name": "Earth City",
+        "route_full_name": "34 Earth City"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 60,
-        "popupContent": "Route: 90 <br>Route Name: Hampton <br>TripID: 2589384 <br>VehicleID: 6932"
+        "popupContent": "Route: 90 <br>Route Name: Hampton <br>TripID: 2589326 <br>VehicleID: 6939"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.28633117675781,
-          38.63228225708008
+          -90.27947998046875,
+          38.671939849853516
         ]
       },
       "data": {
-        "vehicleId": "6932",
-        "tripId": "2589384",
+        "vehicleId": "6939",
+        "tripId": "2589326",
         "routeId": "15762",
         "coordinates": [
-          -90.28633117675781,
-          38.63228225708008
+          -90.27947998046875,
+          38.671939849853516
         ],
         "route_short_name": "90",
-        "route_long_name": "Hampton"
+        "route_long_name": "Hampton",
+        "route_full_name": "90 Hampton"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 61,
-        "popupContent": "Route: 97 <br>Route Name: Delmar <br>TripID: 2590363 <br>VehicleID: 6937"
+        "popupContent": "Route: 70 <br>Route Name: Grand <br>TripID: 2587568 <br>VehicleID: 6942"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.26739501953125,
-          38.65202331542969
+          -90.23014831542969,
+          38.64100646972656
         ]
       },
       "data": {
-        "vehicleId": "6937",
-        "tripId": "2590363",
-        "routeId": "15766",
+        "vehicleId": "6942",
+        "tripId": "2587568",
+        "routeId": "15753",
         "coordinates": [
-          -90.26739501953125,
-          38.65202331542969
+          -90.23014831542969,
+          38.64100646972656
         ],
-        "route_short_name": "97",
-        "route_long_name": "Delmar"
+        "route_short_name": "70",
+        "route_long_name": "Grand",
+        "route_full_name": "70 Grand"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 62,
-        "popupContent": "Route: 34 <br>Route Name: Earth City <br>TripID: 2584727 <br>VehicleID: 6938"
+        "popupContent": "Route: 8 <br>Route Name: Alta Sita <br>TripID: 2591627 <br>VehicleID: 6954"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.37773132324219,
-          38.742515563964844
+          -90.13864135742188,
+          38.597957611083984
         ]
       },
       "data": {
-        "vehicleId": "6938",
-        "tripId": "2584727",
-        "routeId": "15737",
+        "vehicleId": "6954",
+        "tripId": "2591627",
+        "routeId": "15776",
         "coordinates": [
-          -90.37773132324219,
-          38.742515563964844
+          -90.13864135742188,
+          38.597957611083984
         ],
-        "route_short_name": "34",
-        "route_long_name": "Earth City"
+        "route_short_name": "8",
+        "route_long_name": "Alta Sita",
+        "route_full_name": "8 Alta Sita"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 63,
-        "popupContent": "Route: 90 <br>Route Name: Hampton <br>TripID: 2589386 <br>VehicleID: 6939"
+        "popupContent": "Route: 11 <br>Route Name: Chippewa <br>TripID: 2582972 <br>VehicleID: 7001"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.2720947265625,
-          38.68359375
+          -90.22376251220703,
+          38.60123062133789
         ]
       },
       "data": {
-        "vehicleId": "6939",
-        "tripId": "2589386",
-        "routeId": "15762",
+        "vehicleId": "7001",
+        "tripId": "2582972",
+        "routeId": "15726",
         "coordinates": [
-          -90.2720947265625,
-          38.68359375
+          -90.22376251220703,
+          38.60123062133789
         ],
-        "route_short_name": "90",
-        "route_long_name": "Hampton"
+        "route_short_name": "11",
+        "route_long_name": "Chippewa",
+        "route_full_name": "11 Chippewa"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 64,
-        "popupContent": "Route: 12 <br>Route Name: OFallon-Fairview Heights <br>TripID: 2591971 <br>VehicleID: 6952"
+        "popupContent": "Route: 21 <br>Route Name: Watson Rd <br>TripID: 2594680 <br>VehicleID: 7004"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.92168426513672,
-          38.5870361328125
+          -90.33968353271484,
+          38.56828689575195
         ]
       },
       "data": {
-        "vehicleId": "6952",
-        "tripId": "2591971",
-        "routeId": "15778",
+        "vehicleId": "7004",
+        "tripId": "2594680",
+        "routeId": "15732",
         "coordinates": [
-          -89.92168426513672,
-          38.5870361328125
+          -90.33968353271484,
+          38.56828689575195
         ],
-        "route_short_name": "12",
-        "route_long_name": "OFallon-Fairview Heights"
+        "route_short_name": "21",
+        "route_long_name": "Watson Rd",
+        "route_full_name": "21 Watson Rd"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 65,
-        "popupContent": "Route: 2 <br>Route Name: Cahokia <br>TripID: 2591087 <br>VehicleID: 6954"
+        "popupContent": "Route: 57 <br>Route Name: Manchester <br>TripID: 2586100 <br>VehicleID: 7008"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.19014739990234,
-          38.56924819946289
+          -90.34963989257812,
+          38.61250686645508
         ]
       },
       "data": {
-        "vehicleId": "6954",
-        "tripId": "2591087",
-        "routeId": "15771",
+        "vehicleId": "7008",
+        "tripId": "2586100",
+        "routeId": "15746",
         "coordinates": [
-          -90.19014739990234,
-          38.56924819946289
+          -90.34963989257812,
+          38.61250686645508
         ],
-        "route_short_name": "2",
-        "route_long_name": "Cahokia"
+        "route_short_name": "57",
+        "route_long_name": "Manchester",
+        "route_full_name": "57 Manchester"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 66,
-        "popupContent": "Route: 16 <br>Route Name: City Limits <br>TripID: 2583470 <br>VehicleID: 7004"
+        "popupContent": "Route: 10 <br>Route Name: Gravois-Lindell <br>TripID: 2582715 <br>VehicleID: 7012"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.27210235595703,
-          38.698486328125
+          -90.20425415039062,
+          38.61493682861328
         ]
       },
       "data": {
-        "vehicleId": "7004",
-        "tripId": "2583470",
-        "routeId": "15728",
+        "vehicleId": "7012",
+        "tripId": "2582715",
+        "routeId": "15725",
         "coordinates": [
-          -90.27210235595703,
-          38.698486328125
+          -90.20425415039062,
+          38.61493682861328
         ],
-        "route_short_name": "16",
-        "route_long_name": "City Limits"
+        "route_short_name": "10",
+        "route_long_name": "Gravois-Lindell",
+        "route_full_name": "10 Gravois-Lindell"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 67,
-        "popupContent": "Route: 16 <br>Route Name: City Limits <br>TripID: 2583431 <br>VehicleID: 7006"
+        "popupContent": "Route: 16 <br>Route Name: City Limits <br>TripID: 2583439 <br>VehicleID: 7015"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.2608642578125,
-          38.718414306640625
+          -90.24312591552734,
+          38.72758483886719
         ]
       },
       "data": {
-        "vehicleId": "7006",
-        "tripId": "2583431",
+        "vehicleId": "7015",
+        "tripId": "2583439",
         "routeId": "15728",
         "coordinates": [
-          -90.2608642578125,
-          38.718414306640625
+          -90.24312591552734,
+          38.72758483886719
         ],
         "route_short_name": "16",
-        "route_long_name": "City Limits"
+        "route_long_name": "City Limits",
+        "route_full_name": "16 City Limits"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 68,
-        "popupContent": "Route: 57 <br>Route Name: Manchester <br>TripID: 2586093 <br>VehicleID: 7008"
+        "popupContent": "Route: 4 <br>Route Name: Natural Bridge <br>TripID: 2582108 <br>VehicleID: 7021"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.62741088867188,
-          38.5814208984375
+          -90.30146789550781,
+          38.705787658691406
         ]
       },
       "data": {
-        "vehicleId": "7008",
-        "tripId": "2586093",
-        "routeId": "15746",
+        "vehicleId": "7021",
+        "tripId": "2582108",
+        "routeId": "15721",
         "coordinates": [
-          -90.62741088867188,
-          38.5814208984375
+          -90.30146789550781,
+          38.705787658691406
         ],
-        "route_short_name": "57",
-        "route_long_name": "Manchester"
+        "route_short_name": "4",
+        "route_long_name": "Natural Bridge",
+        "route_full_name": "4 Natural Bridge"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 69,
-        "popupContent": "Route: 95 <br>Route Name: Kingshighway <br>TripID: 2590146 <br>VehicleID: 7011"
+        "popupContent": "Route: 74 <br>Route Name: Florissant <br>TripID: 2588362 <br>VehicleID: 7024"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.27108764648438,
-          38.59504699707031
+          -90.26531982421875,
+          38.72017288208008
         ]
       },
       "data": {
-        "vehicleId": "7011",
-        "tripId": "2590146",
-        "routeId": "15765",
+        "vehicleId": "7024",
+        "tripId": "2588362",
+        "routeId": "15756",
         "coordinates": [
-          -90.27108764648438,
-          38.59504699707031
+          -90.26531982421875,
+          38.72017288208008
         ],
-        "route_short_name": "95",
-        "route_long_name": "Kingshighway"
+        "route_short_name": "74",
+        "route_long_name": "Florissant",
+        "route_full_name": "74 Florissant"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 70,
-        "popupContent": "Route: 57 <br>Route Name: Manchester <br>TripID: 2586074 <br>VehicleID: 7014"
+        "popupContent": "Route: 1 <br>Route Name: Main Street - State Street <br>TripID: 2590840 <br>VehicleID: 7051"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.39764404296875,
-          38.600669860839844
+          -90.04817199707031,
+          38.59439468383789
         ]
       },
       "data": {
-        "vehicleId": "7014",
-        "tripId": "2586074",
-        "routeId": "15746",
+        "vehicleId": "7051",
+        "tripId": "2590840",
+        "routeId": "15770",
         "coordinates": [
-          -90.39764404296875,
-          38.600669860839844
+          -90.04817199707031,
+          38.59439468383789
         ],
-        "route_short_name": "57",
-        "route_long_name": "Manchester"
+        "route_short_name": "1",
+        "route_long_name": "Main Street - State Street",
+        "route_full_name": "1 Main Street - State Street"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 71,
-        "popupContent": "Route: 11 <br>Route Name: Chippewa <br>TripID: 2582992 <br>VehicleID: 7017"
+        "popupContent": "Route: 4 <br>Route Name: 19th & Central <br>TripID: 2591220 <br>VehicleID: 7052"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.22930145263672,
-          38.58641052246094
+          -90.1530532836914,
+          38.6051025390625
         ]
       },
       "data": {
-        "vehicleId": "7017",
-        "tripId": "2582992",
-        "routeId": "15726",
+        "vehicleId": "7052",
+        "tripId": "2591220",
+        "routeId": "15772",
         "coordinates": [
-          -90.22930145263672,
-          38.58641052246094
+          -90.1530532836914,
+          38.6051025390625
         ],
-        "route_short_name": "11",
-        "route_long_name": "Chippewa"
+        "route_short_name": "4",
+        "route_long_name": "19th & Central",
+        "route_full_name": "4 19th & Central"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 72,
-        "popupContent": "Route: 8 <br>Route Name: Shaw-Cherokee <br>TripID: 2582371 <br>VehicleID: 7019"
+        "popupContent": "Route: 30 <br>Route Name: Arsenal <br>TripID: 2584104 <br>VehicleID: 7102"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.230224609375,
-          38.59386444091797
+          -90.22450256347656,
+          38.59896469116211
         ]
       },
       "data": {
-        "vehicleId": "7019",
-        "tripId": "2582371",
-        "routeId": "15723",
+        "vehicleId": "7102",
+        "tripId": "2584104",
+        "routeId": "15733",
         "coordinates": [
-          -90.230224609375,
-          38.59386444091797
+          -90.22450256347656,
+          38.59896469116211
         ],
-        "route_short_name": "8",
-        "route_long_name": "Shaw-Cherokee"
+        "route_short_name": "30",
+        "route_long_name": "Arsenal",
+        "route_full_name": "30 Arsenal"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 73,
-        "popupContent": "Route: 70 <br>Route Name: Grand <br>TripID: 2587493 <br>VehicleID: 7023"
+        "popupContent": "Route: 95 <br>Route Name: Kingshighway <br>TripID: 2590159 <br>VehicleID: 7103"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.2343521118164,
-          38.632991790771484
+          -90.26177978515625,
+          38.63304138183594
         ]
       },
       "data": {
-        "vehicleId": "7023",
-        "tripId": "2587493",
-        "routeId": "15753",
+        "vehicleId": "7103",
+        "tripId": "2590159",
+        "routeId": "15765",
         "coordinates": [
-          -90.2343521118164,
-          38.632991790771484
+          -90.26177978515625,
+          38.63304138183594
         ],
-        "route_short_name": "70",
-        "route_long_name": "Grand"
+        "route_short_name": "95",
+        "route_long_name": "Kingshighway",
+        "route_full_name": "95 Kingshighway"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 74,
-        "popupContent": "Route: 91 <br>Route Name: Olive <br>TripID: 2589543 <br>VehicleID: 7026"
+        "popupContent": "Route: 47 <br>Route Name: Hanley <br>TripID: 2585693 <br>VehicleID: 7104"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.50033569335938,
-          38.67970657348633
+          -90.32823944091797,
+          38.69892883300781
         ]
       },
       "data": {
-        "vehicleId": "7026",
-        "tripId": "2589543",
-        "routeId": "15763",
+        "vehicleId": "7104",
+        "tripId": "2585693",
+        "routeId": "15743",
         "coordinates": [
-          -90.50033569335938,
-          38.67970657348633
+          -90.32823944091797,
+          38.69892883300781
         ],
-        "route_short_name": "91",
-        "route_long_name": "Olive"
+        "route_short_name": "47",
+        "route_long_name": "Hanley",
+        "route_full_name": "47 Hanley"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 75,
-        "popupContent": "Route: 1 <br>Route Name: Main Street - State Street <br>TripID: 2590807 <br>VehicleID: 7053"
+        "popupContent": "Route: 73 <br>Route Name: Carondelet <br>TripID: 2588028 <br>VehicleID: 7105"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.15900421142578,
-          38.62503433227539
+          -90.25342559814453,
+          38.55585861206055
         ]
       },
       "data": {
-        "vehicleId": "7053",
-        "tripId": "2590807",
-        "routeId": "15770",
+        "vehicleId": "7105",
+        "tripId": "2588028",
+        "routeId": "15755",
         "coordinates": [
-          -90.15900421142578,
-          38.62503433227539
+          -90.25342559814453,
+          38.55585861206055
         ],
-        "route_short_name": "1",
-        "route_long_name": "Main Street - State Street"
+        "route_short_name": "73",
+        "route_long_name": "Carondelet",
+        "route_full_name": "73 Carondelet"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 76,
-        "popupContent": "Route: 95 <br>Route Name: Kingshighway <br>TripID: 2590101 <br>VehicleID: 7104"
+        "popupContent": "Route: 16 <br>Route Name: City Limits <br>TripID: 2583401 <br>VehicleID: 7107"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.24465942382812,
-          38.686885833740234
+          -90.29553985595703,
+          38.66178512573242
         ]
       },
       "data": {
-        "vehicleId": "7104",
-        "tripId": "2590101",
-        "routeId": "15765",
+        "vehicleId": "7107",
+        "tripId": "2583401",
+        "routeId": "15728",
         "coordinates": [
-          -90.24465942382812,
-          38.686885833740234
+          -90.29553985595703,
+          38.66178512573242
         ],
-        "route_short_name": "95",
-        "route_long_name": "Kingshighway"
+        "route_short_name": "16",
+        "route_long_name": "City Limits",
+        "route_full_name": "16 City Limits"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 77,
-        "popupContent": "Route: 73 <br>Route Name: Carondelet <br>TripID: 2588054 <br>VehicleID: 7105"
+        "popupContent": "Route: 19 <br>Route Name: St Louis Ave <br>TripID: 2583839 <br>VehicleID: 7110"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.32695007324219,
-          38.50499725341797
+          -90.25550079345703,
+          38.67149353027344
         ]
       },
       "data": {
-        "vehicleId": "7105",
-        "tripId": "2588054",
-        "routeId": "15755",
+        "vehicleId": "7110",
+        "tripId": "2583839",
+        "routeId": "15731",
         "coordinates": [
-          -90.32695007324219,
-          38.50499725341797
+          -90.25550079345703,
+          38.67149353027344
         ],
-        "route_short_name": "73",
-        "route_long_name": "Carondelet"
+        "route_short_name": "19",
+        "route_long_name": "St Louis Ave",
+        "route_full_name": "19 St Louis Ave"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 78,
-        "popupContent": "Route: 95 <br>Route Name: Kingshighway <br>TripID: 2590100 <br>VehicleID: 7106"
+        "popupContent": "Route: 10 <br>Route Name: Gravois-Lindell <br>TripID: 2582705 <br>VehicleID: 7111"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.266357421875,
-          38.61976623535156
+          -90.28469848632812,
+          38.5704231262207
         ]
       },
       "data": {
-        "vehicleId": "7106",
-        "tripId": "2590100",
-        "routeId": "15765",
+        "vehicleId": "7111",
+        "tripId": "2582705",
+        "routeId": "15725",
         "coordinates": [
-          -90.266357421875,
-          38.61976623535156
+          -90.28469848632812,
+          38.5704231262207
         ],
-        "route_short_name": "95",
-        "route_long_name": "Kingshighway"
+        "route_short_name": "10",
+        "route_long_name": "Gravois-Lindell",
+        "route_full_name": "10 Gravois-Lindell"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 79,
-        "popupContent": "Route: 11 <br>Route Name: Chippewa <br>TripID: 2583015 <br>VehicleID: 7107"
+        "popupContent": "Route: 95 <br>Route Name: Kingshighway <br>TripID: 2590114 <br>VehicleID: 7112"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.24430084228516,
-          38.58833312988281
+          -90.26234436035156,
+          38.659000396728516
         ]
       },
       "data": {
-        "vehicleId": "7107",
-        "tripId": "2583015",
-        "routeId": "15726",
+        "vehicleId": "7112",
+        "tripId": "2590114",
+        "routeId": "15765",
         "coordinates": [
-          -90.24430084228516,
-          38.58833312988281
+          -90.26234436035156,
+          38.659000396728516
         ],
-        "route_short_name": "11",
-        "route_long_name": "Chippewa"
+        "route_short_name": "95",
+        "route_long_name": "Kingshighway",
+        "route_full_name": "95 Kingshighway"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 80,
-        "popupContent": "Route: 16 <br>Route Name: City Limits <br>TripID: 2583430 <br>VehicleID: 7108"
+        "popupContent": "Route: 35 <br>Route Name: Rock Road <br>TripID: 2584904 <br>VehicleID: 7120"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.3092269897461,
-          38.61275100708008
+          -90.3978500366211,
+          38.73686981201172
         ]
       },
       "data": {
-        "vehicleId": "7108",
-        "tripId": "2583430",
-        "routeId": "15728",
+        "vehicleId": "7120",
+        "tripId": "2584904",
+        "routeId": "15738",
         "coordinates": [
-          -90.3092269897461,
-          38.61275100708008
+          -90.3978500366211,
+          38.73686981201172
         ],
-        "route_short_name": "16",
-        "route_long_name": "City Limits"
+        "route_short_name": "35",
+        "route_long_name": "Rock Road",
+        "route_full_name": "35 Rock Road"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 81,
-        "popupContent": "Route: 90 <br>Route Name: Hampton <br>TripID: 2589317 <br>VehicleID: 7122"
+        "popupContent": "Route: 90 <br>Route Name: Hampton <br>TripID: 2589357 <br>VehicleID: 7122"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.2946548461914,
-          38.574440002441406
+          -90.27274322509766,
+          38.68193817138672
         ]
       },
       "data": {
         "vehicleId": "7122",
-        "tripId": "2589317",
+        "tripId": "2589357",
         "routeId": "15762",
         "coordinates": [
-          -90.2946548461914,
-          38.574440002441406
+          -90.27274322509766,
+          38.68193817138672
         ],
         "route_short_name": "90",
-        "route_long_name": "Hampton"
+        "route_long_name": "Hampton",
+        "route_full_name": "90 Hampton"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 82,
-        "popupContent": "Route: 70 <br>Route Name: Grand <br>TripID: 2587617 <br>VehicleID: 7123"
+        "popupContent": "Route: 9 <br>Route Name: Washington Park <br>TripID: 2591832 <br>VehicleID: 7151"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.26121520996094,
-          38.55861282348633
+          -90.12361907958984,
+          38.623722076416016
         ]
       },
       "data": {
-        "vehicleId": "7123",
-        "tripId": "2587617",
-        "routeId": "15753",
+        "vehicleId": "7151",
+        "tripId": "2591832",
+        "routeId": "15777",
         "coordinates": [
-          -90.26121520996094,
-          38.55861282348633
+          -90.12361907958984,
+          38.623722076416016
         ],
-        "route_short_name": "70",
-        "route_long_name": "Grand"
+        "route_short_name": "9",
+        "route_long_name": "Washington Park",
+        "route_full_name": "9 Washington Park"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 83,
-        "popupContent": "Route: 6 <br>Route Name: Rosemont <br>TripID: 2591409 <br>VehicleID: 7151"
+        "popupContent": "Route: 10 <br>Route Name: Gravois-Lindell <br>TripID: 2582703 <br>VehicleID: 7205"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.10099029541016,
-          38.6233024597168
+          -90.2004165649414,
+          38.63003921508789
         ]
       },
       "data": {
-        "vehicleId": "7151",
-        "tripId": "2591409",
-        "routeId": "15774",
+        "vehicleId": "7205",
+        "tripId": "2582703",
+        "routeId": "15725",
         "coordinates": [
-          -90.10099029541016,
-          38.6233024597168
+          -90.2004165649414,
+          38.63003921508789
         ],
-        "route_short_name": "6",
-        "route_long_name": "Rosemont"
+        "route_short_name": "10",
+        "route_long_name": "Gravois-Lindell",
+        "route_full_name": "10 Gravois-Lindell"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 84,
-        "popupContent": "Route: 13 <br>Route Name: Caseyville-Marybelle <br>TripID: 2592160 <br>VehicleID: 7153"
+        "popupContent": "Route: 73 <br>Route Name: Carondelet <br>TripID: 2588071 <br>VehicleID: 7207"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.04847717285156,
-          38.59484100341797
+          -90.27041625976562,
+          38.545570373535156
         ]
       },
       "data": {
-        "vehicleId": "7153",
-        "tripId": "2592160",
-        "routeId": "15779",
+        "vehicleId": "7207",
+        "tripId": "2588071",
+        "routeId": "15755",
         "coordinates": [
-          -90.04847717285156,
-          38.59484100341797
+          -90.27041625976562,
+          38.545570373535156
         ],
-        "route_short_name": "13",
-        "route_long_name": "Caseyville-Marybelle"
+        "route_short_name": "73",
+        "route_long_name": "Carondelet",
+        "route_full_name": "73 Carondelet"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 85,
-        "popupContent": "Route: 8 <br>Route Name: Alta Sita <br>TripID: 2591650 <br>VehicleID: 7154"
+        "popupContent": "Route: 19 <br>Route Name: St Louis Ave <br>TripID: 2583809 <br>VehicleID: 7208"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.12870025634766,
-          38.589988708496094
+          -90.19731903076172,
+          38.629905700683594
         ]
       },
       "data": {
-        "vehicleId": "7154",
-        "tripId": "2591650",
-        "routeId": "15776",
+        "vehicleId": "7208",
+        "tripId": "2583809",
+        "routeId": "15731",
         "coordinates": [
-          -90.12870025634766,
-          38.589988708496094
+          -90.19731903076172,
+          38.629905700683594
         ],
-        "route_short_name": "8",
-        "route_long_name": "Alta Sita"
+        "route_short_name": "19",
+        "route_long_name": "St Louis Ave",
+        "route_full_name": "19 St Louis Ave"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 86,
-        "popupContent": "Route: 10 <br>Route Name: Gravois-Lindell <br>TripID: 2582738 <br>VehicleID: 7202"
+        "popupContent": "Route: 32 <br>Route Name: Dr ML King <br>TripID: 2584433 <br>VehicleID: 7211"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.2663803100586,
-          38.5820198059082
+          -90.1932601928711,
+          38.62923049926758
         ]
       },
       "data": {
-        "vehicleId": "7202",
-        "tripId": "2582738",
-        "routeId": "15725",
+        "vehicleId": "7211",
+        "tripId": "2584433",
+        "routeId": "15735",
         "coordinates": [
-          -90.2663803100586,
-          38.5820198059082
+          -90.1932601928711,
+          38.62923049926758
         ],
-        "route_short_name": "10",
-        "route_long_name": "Gravois-Lindell"
+        "route_short_name": "32",
+        "route_long_name": "Dr ML King",
+        "route_full_name": "32 Dr ML King"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 87,
-        "popupContent": "Route: 8 <br>Route Name: Shaw-Cherokee <br>TripID: 2582389 <br>VehicleID: 7204"
+        "popupContent": "Route: 94 <br>Route Name: Page <br>TripID: 2589836 <br>VehicleID: 7212"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.25558471679688,
-          38.621334075927734
+          -90.2972183227539,
+          38.66876220703125
         ]
       },
       "data": {
-        "vehicleId": "7204",
-        "tripId": "2582389",
-        "routeId": "15723",
+        "vehicleId": "7212",
+        "tripId": "2589836",
+        "routeId": "15764",
         "coordinates": [
-          -90.25558471679688,
-          38.621334075927734
+          -90.2972183227539,
+          38.66876220703125
         ],
-        "route_short_name": "8",
-        "route_long_name": "Shaw-Cherokee"
+        "route_short_name": "94",
+        "route_long_name": "Page",
+        "route_full_name": "94 Page"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 88,
-        "popupContent": "Route: 10 <br>Route Name: Gravois-Lindell <br>TripID: 2582692 <br>VehicleID: 7206"
+        "popupContent": "Route: 61 <br>Route Name: Chambers Rd <br>TripID: 2586804 <br>VehicleID: 7215"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.20402526855469,
-          38.6206169128418
+          -90.3155517578125,
+          38.746681213378906
         ]
       },
       "data": {
-        "vehicleId": "7206",
-        "tripId": "2582692",
-        "routeId": "15725",
+        "vehicleId": "7215",
+        "tripId": "2586804",
+        "routeId": "15750",
         "coordinates": [
-          -90.20402526855469,
-          38.6206169128418
+          -90.3155517578125,
+          38.746681213378906
         ],
-        "route_short_name": "10",
-        "route_long_name": "Gravois-Lindell"
+        "route_short_name": "61",
+        "route_long_name": "Chambers Rd",
+        "route_full_name": "61 Chambers Rd"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 89,
-        "popupContent": "Route: 95 <br>Route Name: Kingshighway <br>TripID: 2590145 <br>VehicleID: 7207"
+        "popupContent": "Route: 2 <br>Route Name: Cahokia <br>TripID: 2591075 <br>VehicleID: 7251"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.25106811523438,
-          38.6771125793457
+          -90.16869354248047,
+          38.565128326416016
         ]
       },
       "data": {
-        "vehicleId": "7207",
-        "tripId": "2590145",
-        "routeId": "15765",
+        "vehicleId": "7251",
+        "tripId": "2591075",
+        "routeId": "15771",
         "coordinates": [
-          -90.25106811523438,
-          38.6771125793457
+          -90.16869354248047,
+          38.565128326416016
         ],
-        "route_short_name": "95",
-        "route_long_name": "Kingshighway"
+        "route_short_name": "2",
+        "route_long_name": "Cahokia",
+        "route_full_name": "2 Cahokia"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 90,
-        "popupContent": "Route: 32 <br>Route Name: Dr ML King <br>TripID: 2584479 <br>VehicleID: 7211"
+        "popupContent": "Route: 1 <br>Route Name: Main Street - State Street <br>TripID: 2590841 <br>VehicleID: 7253"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.22972869873047,
-          38.64976501464844
+          -89.97425842285156,
+          38.52146911621094
         ]
       },
       "data": {
-        "vehicleId": "7211",
-        "tripId": "2584479",
-        "routeId": "15735",
+        "vehicleId": "7253",
+        "tripId": "2590841",
+        "routeId": "15770",
         "coordinates": [
-          -90.22972869873047,
-          38.64976501464844
+          -89.97425842285156,
+          38.52146911621094
         ],
-        "route_short_name": "32",
-        "route_long_name": "Dr ML King"
+        "route_short_name": "1",
+        "route_long_name": "Main Street - State Street",
+        "route_full_name": "1 Main Street - State Street"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 91,
-        "popupContent": "Route: 94 <br>Route Name: Page <br>TripID: 2589788 <br>VehicleID: 7212"
+        "popupContent": "Route: 59 <br>Route Name: Oakland <br>TripID: 2586404 <br>VehicleID: 7306"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.23892974853516,
-          38.65090560913086
+          -90.26616668701172,
+          38.635108947753906
         ]
       },
       "data": {
-        "vehicleId": "7212",
-        "tripId": "2589788",
-        "routeId": "15764",
+        "vehicleId": "7306",
+        "tripId": "2586404",
+        "routeId": "15748",
         "coordinates": [
-          -90.23892974853516,
-          38.65090560913086
+          -90.26616668701172,
+          38.635108947753906
         ],
-        "route_short_name": "94",
-        "route_long_name": "Page"
+        "route_short_name": "59",
+        "route_long_name": "Oakland",
+        "route_full_name": "59 Oakland"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 92,
-        "popupContent": "Route: 70 <br>Route Name: Grand <br>TripID: 2587616 <br>VehicleID: 7214"
+        "popupContent": "Route: 49 <br>Route Name: Lindbergh <br>TripID: 2585823 <br>VehicleID: 7308"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.24480438232422,
-          38.5843391418457
+          -90.3305892944336,
+          38.7187614440918
         ]
       },
       "data": {
-        "vehicleId": "7214",
-        "tripId": "2587616",
-        "routeId": "15753",
+        "vehicleId": "7308",
+        "tripId": "2585823",
+        "routeId": "15744",
         "coordinates": [
-          -90.24480438232422,
-          38.5843391418457
+          -90.3305892944336,
+          38.7187614440918
         ],
-        "route_short_name": "70",
-        "route_long_name": "Grand"
+        "route_short_name": "49",
+        "route_long_name": "Lindbergh",
+        "route_full_name": "49 Lindbergh"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 93,
-        "popupContent": "Route: 70 <br>Route Name: Grand <br>TripID: 2587492 <br>VehicleID: 7216"
+        "popupContent": "Route: 9 <br>Route Name: Oakville <br>TripID: 2582531 <br>VehicleID: 7309"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.2437973022461,
-          38.592987060546875
+          -90.318115234375,
+          38.59138488769531
         ]
       },
       "data": {
-        "vehicleId": "7216",
-        "tripId": "2587492",
-        "routeId": "15753",
+        "vehicleId": "7309",
+        "tripId": "2582531",
+        "routeId": "15724",
         "coordinates": [
-          -90.2437973022461,
-          38.592987060546875
+          -90.318115234375,
+          38.59138488769531
         ],
-        "route_short_name": "70",
-        "route_long_name": "Grand"
+        "route_short_name": "9",
+        "route_long_name": "Oakville",
+        "route_full_name": "9 Oakville"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 94,
-        "popupContent": "Route: 74 <br>Route Name: Florissant <br>TripID: 2588292 <br>VehicleID: 7217"
+        "popupContent": "Route: 1 <br>Route Name: Gold <br>TripID: 2581763 <br>VehicleID: 7313"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.23661041259766,
-          38.691688537597656
+          -90.28453826904297,
+          38.648502349853516
         ]
       },
       "data": {
-        "vehicleId": "7217",
-        "tripId": "2588292",
-        "routeId": "15756",
+        "vehicleId": "7313",
+        "tripId": "2581763",
+        "routeId": "15719",
         "coordinates": [
-          -90.23661041259766,
-          38.691688537597656
+          -90.28453826904297,
+          38.648502349853516
         ],
-        "route_short_name": "74",
-        "route_long_name": "Florissant"
+        "route_short_name": "1",
+        "route_long_name": "Gold",
+        "route_full_name": "1 Gold"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 95,
-        "popupContent": "Route: 1 <br>Route Name: Main Street - State Street <br>TripID: 2590852 <br>VehicleID: 7253"
+        "popupContent": "Route: 5 <br>Route Name: Green <br>TripID: 2582256 <br>VehicleID: 7316"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.08726501464844,
-          38.6030158996582
+          -90.30403900146484,
+          38.660160064697266
         ]
       },
       "data": {
-        "vehicleId": "7253",
-        "tripId": "2590852",
-        "routeId": "15770",
+        "vehicleId": "7316",
+        "tripId": "2582256",
+        "routeId": "15722",
         "coordinates": [
-          -90.08726501464844,
-          38.6030158996582
+          -90.30403900146484,
+          38.660160064697266
         ],
-        "route_short_name": "1",
-        "route_long_name": "Main Street - State Street"
+        "route_short_name": "5",
+        "route_long_name": "Green",
+        "route_full_name": "5 Green"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 96,
-        "popupContent": "Route: 19 <br>Route Name: St Louis Ave <br>TripID: 2583832 <br>VehicleID: 7302"
+        "popupContent": "Route: 75 <br>Route Name: Christian Hospital <br>TripID: 2588517 <br>VehicleID: 7318"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.19847106933594,
-          38.62722396850586
+          -90.25228118896484,
+          38.77116775512695
         ]
       },
       "data": {
-        "vehicleId": "7302",
-        "tripId": "2583832",
-        "routeId": "15731",
+        "vehicleId": "7318",
+        "tripId": "2588517",
+        "routeId": "15757",
         "coordinates": [
-          -90.19847106933594,
-          38.62722396850586
+          -90.25228118896484,
+          38.77116775512695
         ],
-        "route_short_name": "19",
-        "route_long_name": "St Louis Ave"
+        "route_short_name": "75",
+        "route_long_name": "Christian Hospital",
+        "route_full_name": "75 Christian Hospital"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 97,
-        "popupContent": "Route: 13 <br>Route Name: Union <br>TripID: 2583201 <br>VehicleID: 7303"
+        "popupContent": "Route: 2 <br>Route Name: Red <br>TripID: 2581903 <br>VehicleID: 7321"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.26898193359375,
-          38.664424896240234
+          -90.30055236816406,
+          38.659061431884766
         ]
       },
       "data": {
-        "vehicleId": "7303",
-        "tripId": "2583201",
-        "routeId": "15727",
+        "vehicleId": "7321",
+        "tripId": "2581903",
+        "routeId": "15720",
         "coordinates": [
-          -90.26898193359375,
-          38.664424896240234
+          -90.30055236816406,
+          38.659061431884766
         ],
-        "route_short_name": "13",
-        "route_long_name": "Union"
+        "route_short_name": "2",
+        "route_long_name": "Red",
+        "route_full_name": "2 Red"
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": 98,
-        "popupContent": "Route: 59 <br>Route Name: Oakland <br>TripID: 2586370 <br>VehicleID: 7306"
+        "popupContent": "Route: 12 <br>Route Name: OFallon-Fairview Heights <br>TripID: 2591987 <br>VehicleID: 7355"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.313720703125,
-          38.63422393798828
-        ]
-      },
-      "data": {
-        "vehicleId": "7306",
-        "tripId": "2586370",
-        "routeId": "15748",
-        "coordinates": [
-          -90.313720703125,
-          38.63422393798828
-        ],
-        "route_short_name": "59",
-        "route_long_name": "Oakland"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 99,
-        "popupContent": "Route: 76 <br>Route Name: McDonnell-Waterford <br>TripID: 2588664 <br>VehicleID: 7311"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.3284683227539,
-          38.798885345458984
-        ]
-      },
-      "data": {
-        "vehicleId": "7311",
-        "tripId": "2588664",
-        "routeId": "15758",
-        "coordinates": [
-          -90.3284683227539,
-          38.798885345458984
-        ],
-        "route_short_name": "76",
-        "route_long_name": "McDonnell-Waterford"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 100,
-        "popupContent": "Route: 75 <br>Route Name: Christian Hospital <br>TripID: 2588541 <br>VehicleID: 7315"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.21436309814453,
-          38.79290771484375
-        ]
-      },
-      "data": {
-        "vehicleId": "7315",
-        "tripId": "2588541",
-        "routeId": "15757",
-        "coordinates": [
-          -90.21436309814453,
-          38.79290771484375
-        ],
-        "route_short_name": "75",
-        "route_long_name": "Christian Hospital"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 101,
-        "popupContent": "Route: 2 <br>Route Name: Red <br>TripID: 2581931 <br>VehicleID: 7321"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.3006591796875,
-          38.649070739746094
-        ]
-      },
-      "data": {
-        "vehicleId": "7321",
-        "tripId": "2581931",
-        "routeId": "15720",
-        "coordinates": [
-          -90.3006591796875,
-          38.649070739746094
-        ],
-        "route_short_name": "2",
-        "route_long_name": "Red"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 102,
-        "popupContent": "Route: 12 <br>Route Name: OFallon-Fairview Heights <br>TripID: 2591970 <br>VehicleID: 7352"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.95613861083984,
-          38.59254837036133
-        ]
-      },
-      "data": {
-        "vehicleId": "7352",
-        "tripId": "2591970",
-        "routeId": "15778",
-        "coordinates": [
-          -89.95613861083984,
-          38.59254837036133
-        ],
-        "route_short_name": "12",
-        "route_long_name": "OFallon-Fairview Heights"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 103,
-        "popupContent": "Route: 12 <br>Route Name: OFallon-Fairview Heights <br>TripID: 2592026 <br>VehicleID: 7355"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.9007797241211,
-          38.591339111328125
+          -89.92318725585938,
+          38.58855056762695
         ]
       },
       "data": {
         "vehicleId": "7355",
-        "tripId": "2592026",
+        "tripId": "2591987",
         "routeId": "15778",
         "coordinates": [
-          -89.9007797241211,
-          38.591339111328125
+          -89.92318725585938,
+          38.58855056762695
         ],
         "route_short_name": "12",
-        "route_long_name": "OFallon-Fairview Heights"
+        "route_long_name": "OFallon-Fairview Heights",
+        "route_full_name": "12 OFallon-Fairview Heights"
       }
     }
   ]

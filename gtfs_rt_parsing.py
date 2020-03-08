@@ -98,12 +98,18 @@ def loadGTFS(routesFile, stopsFile, stopTimesFile):
         stopsJson = []
         with open(stopsFile, newline='') as stops_csv:
             stopsReader = csv.DictReader(stops_csv)
+            id = 0
             for stps in stopsReader:
                 # CREATE AN OBJECT FOR EVERY STOP_ID
                 indivStop = {}
 
                 indivStop['data'] = {}
-                indivStop['type'] = "feature"
+                indivStop['type'] = "Feature"
+                indivStop['properties'] = {}
+
+                indivStop['properties']['id'] = id
+                indivStop['properties']['popup'] = f"Stop Name: {stps['stop_name']}"
+                id += 1
 
                 # ADD COLUMNS AS KEYS TO STOP
                 for key in stps:
@@ -116,7 +122,7 @@ def loadGTFS(routesFile, stopsFile, stopTimesFile):
 
                     indivStop['geometry'] = {}
                     indivStop['geometry']['type'] = "Point"
-                    indivStop['geometry']['coordinates'] = [float(stps['stop_lat']), float(stps['stop_lon'])]
+                    indivStop['geometry']['coordinates'] = [float(stps['stop_lon']), float(stps['stop_lat'])]
 
                 stopsJson.append(indivStop)
 
@@ -129,7 +135,7 @@ def loadGTFS(routesFile, stopsFile, stopTimesFile):
         #             stopsJson[stp_times['stop_id']]['data']['trips'].append(stp_times['trip_id'])
 
         # CREATION OF GEOJSON FORMATTING FOR STOP.JSON
-        geojson['type'] = "feature collection"
+        geojson['type'] = "Feature Collection"
         geojson['features'] = stopsJson
 
         saveTempData(geojson, r'leaflet\stops.json')
@@ -170,6 +176,8 @@ def getRealTime():
                     # COPY OVER ROUTESJSON ROUTE_SHORT_NAME AND ROUTE_LONG_NAME TO VEHICLES
                     vehicle['data']['route_short_name'] = routesJson[routei]['route_short_name']
                     vehicle['data']['route_long_name'] = routesJson[routei]['route_long_name']
+                    vehicle['data']['route_full_name'] = routesJson[routei]['route_short_name'] + " " + routesJson[routei]['route_long_name']
+
                 return vehicles
 
         def addVehiclePopups(vehicles):
