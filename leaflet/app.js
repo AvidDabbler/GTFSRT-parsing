@@ -2,18 +2,22 @@ import { leafletKey } from '/private.js'
 
 // realtime library => https://github.com/perliedman/leaflet-realtime
 
-const stopStyle = {
-    "color": 'red',
-    "radius": 10,
-    "fillColor": 'red'
-};
-const vehicleStyle = {
-    "color": 'red',
-    "radius": 1,
-    "fillColor": 'red'
+const stopStyle =  { // feeds into stopsRender() for styling
+    color: "red",
+    radius: 25,
+    fillColor: "red",
+    fillOpacity: 1.0
 };
 
-const stopRender= (url, container, c) => {
+const vehicleStyle =  { // feeds into vehicleRender() for styling
+    color: "blue",
+    radius: 100,
+    fillColor: "blue",
+    fillOpacity: 1.0,
+    zindex: 1000
+};
+
+const stopRender= (url, container) => {
     return L.realtime(url, {
         interval: 10 * 1000,
         getFeatureId: function(f) {
@@ -31,10 +35,8 @@ const stopRender= (url, container, c) => {
             })
         },
         pointToLayer: function (feature, latlng) {
-            return L.circle(latlng, {
-                icon: stopStyle})
-            }
-    })
+            return L.circle(latlng, stopStyle)
+    }})
     .addTo(mymap);
 }
 
@@ -55,14 +57,18 @@ const vehiclesRender= (url, container, c) => {
                         `;
             })
         },
-
-    }).addTo(mymap);
+        pointToLayer: function (f, latlng) {
+            return L.circle(latlng, vehicleStyle)
+    }})
+    .addTo(mymap);
 }
 
 var mymap = L.map('map').setView([38.5967820198742, -90.24254675444169], 13),
+    subgroup2 = L.featureGroup.subGroup(),
     subgroup1 = L.featureGroup.subGroup(),
-    realtime1 = vehiclesRender('vehicles.json', subgroup1),
-    realtime2 = stopRender('stops.json', subgroup1);
+
+    realtime2 = stopRender('stops.json', subgroup1),
+    realtime1 = vehiclesRender('vehicles.json', subgroup2);
        
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
