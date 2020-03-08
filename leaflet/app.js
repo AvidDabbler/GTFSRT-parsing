@@ -58,7 +58,7 @@ const vehiclesRender= (url, container, c) => {
             })
         },
         pointToLayer: function (f, latlng) {
-            return L.circle(latlng, vehicleStyle)
+            return L.circle(latlng, vehicleStyle).bringToFront()
     }})
     .addTo(mymap);
 }
