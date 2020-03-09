@@ -40,7 +40,7 @@ const stopRender= (url, container) => {
     .addTo(mymap);
 }
 
-const vehiclesRender= (url, container, c) => {
+const vehiclesRender= (url, container) => {
     return L.realtime(url, {
         interval: 10 * 1000,
         getFeatureId: function(f) {
@@ -53,22 +53,29 @@ const vehiclesRender= (url, container, c) => {
             l.bindPopup(()=>{
                 return `Route Name: ${f.data.route_full_name}<br>
                         Vehicle Id: ${f.data.vehicleId}<br>
-                        StreetView: <a href="http://maps.google.com/maps?q=&layer=c&cbll=${f.data.coordinates[1]},${f.data.coordinates[0]}" target="_blank">Vehicle Location</a>
-                        `;
-            })
-        },
+                        StreetView: <a href="http://maps.google.com/maps?q=&layer=c&cbll=${f.data.coordinates[1]},${f.data.coordinates[0]}" target="_blank">Vehicle Location</a>`;
+        })},
         pointToLayer: function (f, latlng) {
             return L.circle(latlng, vehicleStyle).bringToFront()
-    }})
-    .addTo(mymap);
-}
+        }}).addTo(mymap);
+};
+
+const routesRender = (url, container) => {
+    fetch(url).then(response => {
+        return response.json();
+    }).then(json => {
+        var myLayer = L.geoJSON().addTo(mymap);
+        myLayer.addData(json).addTo(mymap);
+    })};
+
 
 var mymap = L.map('map').setView([38.5967820198742, -90.24254675444169], 13),
-    subgroup2 = L.featureGroup.subGroup(),
-    subgroup1 = L.featureGroup.subGroup(),
-
-    realtime2 = stopRender('stops.json', subgroup1),
-    realtime1 = vehiclesRender('vehicles.json', subgroup2);
+    baseLayers = L.featureGroup.subGroup(),
+    realtimeLayers = L.featureGroup.subGroup(),
+    realtime2 = stopRender('stops.json', realtimeLayers),
+    realtime1 = vehiclesRender('vehicles.json', realtimeLayers),
+    baseRoutes = routesRender('https://opendata.arcgis.com/datasets/80d7b4b8e93f43929ed345d7c72ec4c5_0.geojson', baseLayers)
+    ;
        
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
